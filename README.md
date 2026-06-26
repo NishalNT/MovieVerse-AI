@@ -170,7 +170,7 @@ MovieVerse-AI/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/MovieVerse-AI.git
+git clone https://github.com/NishalNT/MovieVerse-AI.git
 cd MovieVerse-AI
 ```
 
@@ -419,14 +419,8 @@ git push origin feature/AmazingFeature
 - Next.js
 - All Contributors
 
----
-
-# 📞 Contact
-
-**Nishal**
-
 
 <p align="center">
 Built with ❤️ using FastAPI, LangGraph, Cohere, TMDB, and Next.js
 </p>
-````
+
