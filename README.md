@@ -375,54 +375,6 @@ npm run test
 
 ---
 
-# 🚢 Deployment
-
-## Docker
-
-```bash
-docker-compose up --build
-
-docker build -t movieverse-backend -f Dockerfile.backend .
-
-docker build -t movieverse-frontend -f Dockerfile.frontend .
-```
-
-## Production
-
-- Backend → AWS / Azure / GCP
-- Frontend → Vercel / Netlify
-- Configure production environment variables
-
----
-
-# 🔮 Upcoming Features
-
-- User Authentication
-- Watchlists
-- Favorites
-- Streaming Providers
-- Movie Trailers
-- Voice Assistant
-- TV Shows
-- Anime Support
-- Better Recommendations
-- Multi-language
-- Docker
-- CI/CD
-- Testing
-- Monitoring
-
----
-
-# 📊 Performance Optimization
-
-- Redis caching
-- Rate limiting
-- Lazy loading
-- CDN
-- Production database
-
----
 
 # 🤝 Contributing
 
@@ -457,11 +409,6 @@ git push origin feature/AmazingFeature
 
 ---
 
-# 📄 License
-
-This project is licensed under the MIT License.
-
----
 
 # 🙏 Acknowledgments
 
