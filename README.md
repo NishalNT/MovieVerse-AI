@@ -86,9 +86,10 @@ graph TD
     J --> K[User]
 
 ```
+````markdown
+## 📂 Project Structure
 
-## Project Structure
-
+```text
 MovieVerse-AI/
 │
 ├── backend/                          # Backend API & Agent
@@ -155,159 +156,330 @@ MovieVerse-AI/
 ├── .gitignore                        # Git ignore file
 ├── LICENSE                           # License file
 └── README.md                         # Project documentation
+```
 
-## 🚀 Installation
-### Prerequisites
-Python 3.11 or higher
+# 🚀 Installation
 
-Node.js 18+ and npm
+## Prerequisites
 
-TMDB API Key (Get it here)
+- Python 3.11 or higher
+- Node.js 18+ and npm
+- TMDB API Key
+- Cohere API Key
 
-Cohere API Key (Get it here)
+### Clone Repository
 
-Clone Repository
-bash
+```bash
 git clone https://github.com/yourusername/MovieVerse-AI.git
 cd MovieVerse-AI
-Backend Setup
-bash
+```
+
+### Backend Setup
+
+```bash
 cd backend
 
 # Create virtual environment
 python -m venv venv
 
 # Activate virtual environment
-# On Windows
+
+# Windows
 venv\Scripts\activate
-# On Linux/macOS
+
+# Linux/macOS
 source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Create .env file
+# Create .env
 cp .env.example .env
-Configure Environment Variables
-Edit .env file:
+```
 
-env
+### Configure Environment Variables
+
+```env
 COHERE_API_KEY=your_cohere_api_key_here
 TMDB_API_KEY=your_tmdb_api_key_here
 MODEL_NAME=command-a-03-2025
 MEMORY_PATH=./memory_storage
 MAX_HISTORY_LENGTH=10
-Run Backend Server
-bash
+```
+
+### Run Backend
+
+```bash
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
-Backend will run at: http://localhost:8000
+```
 
-API Documentation
-Swagger UI: http://localhost:8000/docs
+Backend:
 
-ReDoc: http://localhost:8000/redoc
+```
+http://localhost:8000
+```
 
-Frontend Setup
-bash
+Swagger:
+
+```
+http://localhost:8000/docs
+```
+
+ReDoc:
+
+```
+http://localhost:8000/redoc
+```
+
+---
+
+## Frontend Setup
+
+```bash
 cd frontend
 
-# Install dependencies
 npm install
 
-# Create environment file
 cp .env.example .env.local
-Configure Frontend Environment
-Edit .env.local:
+```
 
-env
+### Configure Frontend
+
+```env
 NEXT_PUBLIC_API_URL=http://localhost:8000
-Run Frontend Development Server
-bash
+```
+
+### Run Frontend
+
+```bash
 npm run dev
-Frontend will run at: http://localhost:3000
+```
 
-💻 Usage
-Basic Queries
-bash
-# Search for movies
-"Lord of the Rings"
+Frontend:
 
-# Get watch order for franchises
-"Marvel movies in order"
+```
+http://localhost:3000
+```
 
-# Find similar movies
-"Movies like Interstellar"
+---
 
-# Get movie explanations
-"Explain Inception ending"
+# 💻 Usage
 
-# Get recommendations
-"Recommend a horror movie"
+## Example Queries
 
-# Actor-based search
-"Movies starring Leonardo DiCaprio"
+```text
+Lord of the Rings
 
-# Franchise-specific queries
-"Batman movie order"
+Marvel movies in order
 
-# Sequential recommendations
-"What should I watch after Harry Potter 3?"
-Example Conversation
-text
-User: "I love sci-fi movies"
-AI: "Great! What sci-fi movies have you enjoyed?"
-User: "Interstellar and Blade Runner"
-AI: "Based on your preferences, I recommend Arrival and 
-     Ex Machina. Would you like more details about these?"
-📡 API Endpoints
-Chat Endpoints
-Method	Endpoint	Description
-POST	/api/chat	Send a message to the AI assistant
-GET	/api/chat/history/{session_id}	Get chat history
-DELETE	/api/chat/history/{session_id}	Clear chat history
-Movie Endpoints
-Method	Endpoint	Description
-GET	/api/movies/search	Search for movies
-GET	/api/movies/{movie_id}	Get movie details
-GET	/api/movies/similar/{movie_id}	Get similar movies
-GET	/api/movies/collections/{collection_id}	Get movie collection
-Example API Request
-bash
+Movies like Interstellar
+
+Explain Inception ending
+
+Recommend a horror movie
+
+Movies starring Leonardo DiCaprio
+
+Batman movie order
+
+What should I watch after Harry Potter 3?
+```
+
+## Example Conversation
+
+```text
+User: I love sci-fi movies
+
+AI: Great! What sci-fi movies have you enjoyed?
+
+User: Interstellar and Blade Runner
+
+AI: Based on your preferences, I recommend Arrival and Ex Machina.
+Would you like more details about these?
+```
+
+---
+
+# 📡 API Endpoints
+
+## Chat Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/chat` | Send a message |
+| GET | `/api/chat/history/{session_id}` | Get history |
+| DELETE | `/api/chat/history/{session_id}` | Clear history |
+
+## Movie Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/movies/search` | Search movies |
+| GET | `/api/movies/{movie_id}` | Movie details |
+| GET | `/api/movies/similar/{movie_id}` | Similar movies |
+| GET | `/api/movies/collections/{collection_id}` | Movie collection |
+
+### Example Request
+
+```bash
 curl -X POST "http://localhost:8000/api/chat" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "message": "What are the best movies from Christopher Nolan?",
-    "session_id": "user_123"
-  }'
-🧪 Testing
-Backend Tests
-bash
+-H "Content-Type: application/json" \
+-d '{
+  "message":"What are the best movies from Christopher Nolan?",
+  "session_id":"user_123"
+}'
+```
+
+---
+
+# 🧪 Testing
+
+### Backend
+
+```bash
 cd backend
 pytest tests/
-Frontend Tests
-bash
+```
+
+### Frontend
+
+```bash
 cd frontend
 npm run test
-🔧 Troubleshooting
-Common Issues
-Backend fails to start
+```
 
-Check if all dependencies are installed
+---
 
-Verify Python version (3.11+)
+# 🔧 Troubleshooting
 
-Ensure .env file is properly configured
+## Common Issues
 
-TMDB API rate limiting
+### Backend fails to start
 
-Implement retry logic
+- Check dependencies
+- Verify Python 3.11+
+- Verify `.env`
 
-Cache frequently accessed data
+### TMDB Rate Limits
 
-CORS issues
+- Retry requests
+- Cache responses
 
-Ensure backend CORS middleware is configured properly
+### CORS Issues
 
-Memory storage not persisting
+- Configure FastAPI CORS middleware
 
-Check write permissions in memory_storage directory
+### Memory Not Saving
+
+- Verify write permissions for `memory_storage`
+
+---
+
+# 🚢 Deployment
+
+## Docker
+
+```bash
+docker-compose up --build
+
+docker build -t movieverse-backend -f Dockerfile.backend .
+
+docker build -t movieverse-frontend -f Dockerfile.frontend .
+```
+
+## Production
+
+- Backend → AWS / Azure / GCP
+- Frontend → Vercel / Netlify
+- Configure production environment variables
+
+---
+
+# 🔮 Upcoming Features
+
+- User Authentication
+- Watchlists
+- Favorites
+- Streaming Providers
+- Movie Trailers
+- Voice Assistant
+- TV Shows
+- Anime Support
+- Better Recommendations
+- Multi-language
+- Docker
+- CI/CD
+- Testing
+- Monitoring
+
+---
+
+# 📊 Performance Optimization
+
+- Redis caching
+- Rate limiting
+- Lazy loading
+- CDN
+- Production database
+
+---
+
+# 🤝 Contributing
+
+1. Fork repository
+2. Create feature branch
+
+```bash
+git checkout -b feature/AmazingFeature
+```
+
+3. Commit
+
+```bash
+git commit -m "Add some AmazingFeature"
+```
+
+4. Push
+
+```bash
+git push origin feature/AmazingFeature
+```
+
+5. Open Pull Request
+
+## Development Guidelines
+
+- Follow PEP 8
+- Use TypeScript
+- Write meaningful commits
+- Add tests
+- Update documentation
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 🙏 Acknowledgments
+
+- TMDB
+- Cohere
+- LangGraph
+- FastAPI
+- Next.js
+- All Contributors
+
+---
+
+# 📞 Contact
+
+**Nishal**
+
+
+<p align="center">
+Built with ❤️ using FastAPI, LangGraph, Cohere, TMDB, and Next.js
+</p>
+````
