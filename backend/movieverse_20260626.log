@@ -1,0 +1,3060 @@
+2026-06-26 14:30:03 - movieverse - INFO - Initializing AgentGraph
+2026-06-26 14:30:04 - movieverse - DEBUG - Building agent workflow graph
+2026-06-26 14:30:04 - movieverse - DEBUG - Agent workflow graph built successfully
+2026-06-26 14:30:04 - movieverse - INFO - AgentGraph initialized successfully
+2026-06-26 14:30:43 - movieverse - INFO - Initializing AgentGraph
+2026-06-26 14:30:44 - movieverse - INFO - Initializing AgentNodes
+2026-06-26 14:30:44 - movieverse - INFO - AgentNodes initialized with tools | Data: {
+  "tools": [
+    "search_movie",
+    "get_movie_details",
+    "search_collection",
+    "get_recommendations",
+    "get_actor_movies",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:30:44 - movieverse - DEBUG - Building agent workflow graph
+2026-06-26 14:30:44 - movieverse - DEBUG - Agent workflow graph built successfully
+2026-06-26 14:30:44 - movieverse - INFO - AgentGraph initialized successfully
+2026-06-26 14:30:56 - movieverse - INFO - Initializing AgentGraph
+2026-06-26 14:30:56 - movieverse - INFO - Initializing AgentNodes
+2026-06-26 14:30:56 - movieverse - INFO - AgentNodes initialized with tools | Data: {
+  "tools": [
+    "search_movie",
+    "get_movie_details",
+    "search_collection",
+    "get_recommendations",
+    "get_actor_movies",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:30:56 - movieverse - DEBUG - Building agent workflow graph
+2026-06-26 14:30:56 - movieverse - DEBUG - Agent workflow graph built successfully
+2026-06-26 14:30:56 - movieverse - INFO - AgentGraph initialized successfully
+2026-06-26 14:31:13 - movieverse - INFO - Initializing AgentGraph
+2026-06-26 14:31:14 - movieverse - INFO - Initializing AgentNodes
+2026-06-26 14:31:21 - movieverse - INFO - Initializing AgentGraph
+2026-06-26 14:31:21 - movieverse - INFO - Initializing AgentNodes
+2026-06-26 14:31:22 - movieverse - INFO - AgentNodes initialized with tools | Data: {
+  "tools": [
+    "search_movie",
+    "get_movie_details",
+    "search_collection",
+    "get_recommendations",
+    "get_actor_movies",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:31:22 - movieverse - DEBUG - Building agent workflow graph
+2026-06-26 14:31:22 - movieverse - DEBUG - Agent workflow graph built successfully
+2026-06-26 14:31:22 - movieverse - INFO - AgentGraph initialized successfully
+2026-06-26 14:31:25 - movieverse - INFO - Initializing AgentGraph
+2026-06-26 14:31:25 - movieverse - INFO - Initializing AgentNodes
+2026-06-26 14:31:26 - movieverse - INFO - AgentNodes initialized with tools | Data: {
+  "tools": [
+    "search_movie",
+    "get_movie_details",
+    "search_collection",
+    "get_recommendations",
+    "get_actor_movies",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:31:26 - movieverse - DEBUG - Building agent workflow graph
+2026-06-26 14:31:26 - movieverse - DEBUG - Agent workflow graph built successfully
+2026-06-26 14:31:26 - movieverse - INFO - AgentGraph initialized successfully
+2026-06-26 14:31:28 - movieverse - INFO - Initializing AgentGraph
+2026-06-26 14:31:29 - movieverse - INFO - Initializing AgentNodes
+2026-06-26 14:31:29 - movieverse - INFO - AgentNodes initialized with tools | Data: {
+  "tools": [
+    "search_movie",
+    "get_movie_details",
+    "search_collection",
+    "get_recommendations",
+    "get_actor_movies",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:31:29 - movieverse - DEBUG - Building agent workflow graph
+2026-06-26 14:31:29 - movieverse - DEBUG - Agent workflow graph built successfully
+2026-06-26 14:31:29 - movieverse - INFO - AgentGraph initialized successfully
+2026-06-26 14:31:41 - movieverse - INFO - Initializing AgentGraph
+2026-06-26 14:31:41 - movieverse - INFO - Initializing AgentNodes
+2026-06-26 14:31:41 - movieverse - INFO - AgentNodes initialized with tools | Data: {
+  "tools": [
+    "search_movie",
+    "get_movie_details",
+    "search_collection",
+    "get_recommendations",
+    "get_actor_movies",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:31:41 - movieverse - DEBUG - Building agent workflow graph
+2026-06-26 14:31:41 - movieverse - DEBUG - Agent workflow graph built successfully
+2026-06-26 14:31:42 - movieverse - INFO - AgentGraph initialized successfully
+2026-06-26 14:31:44 - movieverse - INFO - Initializing AgentGraph
+2026-06-26 14:31:45 - movieverse - INFO - Initializing AgentNodes
+2026-06-26 14:31:46 - movieverse - INFO - AgentNodes initialized with tools | Data: {
+  "tools": [
+    "search_movie",
+    "get_movie_details",
+    "search_collection",
+    "get_recommendations",
+    "get_actor_movies",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:31:46 - movieverse - DEBUG - Building agent workflow graph
+2026-06-26 14:31:46 - movieverse - DEBUG - Agent workflow graph built successfully
+2026-06-26 14:31:46 - movieverse - INFO - AgentGraph initialized successfully
+2026-06-26 14:31:58 - movieverse - INFO - Processing message: tell me about fast and furious series... | Data: {
+  "conversation_id": "87d6d9e7-1958-4c8b-9686-f2da6f3a46af"
+}
+2026-06-26 14:31:58 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "87d6d9e7-1958-4c8b-9686-f2da6f3a46af",
+    "current_query": "tell me about fast and furious series",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 14:31:58 - movieverse - INFO - Running agent graph
+2026-06-26 14:31:58 - movieverse - INFO - Analyzing intent for query: tell me about fast and furious series... | Data: {
+  "conversation_id": "87d6d9e7-1958-4c8b-9686-f2da6f3a46af"
+}
+2026-06-26 14:31:58 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "tell me about fast and furious series",
+  "contains_watch_order": false
+}
+2026-06-26 14:31:58 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 14:31:58 - movieverse - DEBUG - Extracting movie name from: tell me about fast and furious series
+2026-06-26 14:31:58 - movieverse - DEBUG - Extracted movie name: Fast And Furious
+2026-06-26 14:31:58 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious"
+  }
+}
+2026-06-26 14:31:58 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 14:31:58 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious"
+  }
+}
+2026-06-26 14:31:58 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 14:31:58 - movieverse - DEBUG - Calling search_movie with: Fast And Furious
+2026-06-26 14:31:59 - movieverse - INFO - Tool search_movie returned 10 items
+2026-06-26 14:31:59 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 14:31:59 - movieverse - INFO - Generating response for conversation: 87d6d9e7-1958-4c8b-9686-f2da6f3a46af
+2026-06-26 14:31:59 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 14:32:23 - movieverse - INFO - Generated response of length: 4732
+2026-06-26 14:32:23 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 14:32:23 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 14:32:23 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 14:32:23 - movieverse - INFO - Found 10 movies from search_movie
+2026-06-26 14:32:23 - movieverse - INFO - Extracted 10 unique movies after deduplication
+2026-06-26 14:32:23 - movieverse - INFO - Extracted 10 movies from tool results | Data: {
+  "movie_titles": [
+    "Fast and Furious",
+    "Christine: Fast and Furious",
+    "The Fast and the Furious",
+    "Fast and Furious",
+    "The Fast and the Furious: Tokyo Drift"
+  ]
+}
+2026-06-26 14:32:23 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 4732,
+  "movies_count": 10
+}
+2026-06-26 14:35:23 - movieverse - INFO - Processing message: fast and furious... | Data: {
+  "conversation_id": "9467113f-2eee-47cd-a4ed-dcab81ef9e47"
+}
+2026-06-26 14:35:23 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "9467113f-2eee-47cd-a4ed-dcab81ef9e47",
+    "current_query": "fast and furious",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 14:35:23 - movieverse - INFO - Running agent graph
+2026-06-26 14:35:23 - movieverse - INFO - Analyzing intent for query: fast and furious... | Data: {
+  "conversation_id": "9467113f-2eee-47cd-a4ed-dcab81ef9e47"
+}
+2026-06-26 14:35:23 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious",
+  "contains_watch_order": false
+}
+2026-06-26 14:35:23 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 14:35:23 - movieverse - DEBUG - Extracting movie name from: fast and furious
+2026-06-26 14:35:23 - movieverse - DEBUG - Extracted movie name: Fast And Furious
+2026-06-26 14:35:23 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious"
+  }
+}
+2026-06-26 14:35:23 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 14:35:23 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious"
+  }
+}
+2026-06-26 14:35:23 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 14:35:23 - movieverse - DEBUG - Calling search_movie with: Fast And Furious
+2026-06-26 14:35:24 - movieverse - INFO - Tool search_movie returned 10 items
+2026-06-26 14:35:24 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 14:35:24 - movieverse - INFO - Generating response for conversation: 9467113f-2eee-47cd-a4ed-dcab81ef9e47
+2026-06-26 14:35:24 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 14:35:38 - movieverse - INFO - Generated response of length: 2888
+2026-06-26 14:35:38 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 14:35:38 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 14:35:38 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 14:35:38 - movieverse - INFO - Found 10 movies from search_movie
+2026-06-26 14:35:38 - movieverse - INFO - Extracted 10 unique movies after deduplication
+2026-06-26 14:35:38 - movieverse - INFO - Extracted 10 movies from tool results | Data: {
+  "movie_titles": [
+    "Fast and Furious",
+    "Christine: Fast and Furious",
+    "The Fast and the Furious",
+    "Fast and Furious",
+    "The Fast and the Furious: Tokyo Drift"
+  ]
+}
+2026-06-26 14:35:38 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 2888,
+  "movies_count": 10
+}
+2026-06-26 14:39:15 - movieverse - INFO - Processing message: Lord of the Rings watch order... | Data: {
+  "conversation_id": "cc844790-c5d7-4be0-9444-b46e9ff7d681"
+}
+2026-06-26 14:39:15 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "cc844790-c5d7-4be0-9444-b46e9ff7d681",
+    "current_query": "Lord of the Rings watch order",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 14:39:15 - movieverse - INFO - Running agent graph
+2026-06-26 14:39:15 - movieverse - INFO - Analyzing intent for query: Lord of the Rings watch order... | Data: {
+  "conversation_id": "cc844790-c5d7-4be0-9444-b46e9ff7d681"
+}
+2026-06-26 14:39:15 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "lord of the rings watch order",
+  "contains_watch_order": true
+}
+2026-06-26 14:39:15 - movieverse - DEBUG - Watch order detected in query
+2026-06-26 14:39:15 - movieverse - DEBUG - Extracting collection name from: Lord of the Rings watch order
+2026-06-26 14:39:15 - movieverse - DEBUG - Extracted collection name: Lord Of The Rings
+2026-06-26 14:39:15 - movieverse - INFO - Extracted collection name: Lord Of The Rings
+2026-06-26 14:39:15 - movieverse - INFO - Selected tools: ['search_collection', 'get_watch_order'] | Data: {
+  "extracted_params": {
+    "collection_name": "Lord Of The Rings"
+  }
+}
+2026-06-26 14:39:15 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_collection",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:39:15 - movieverse - INFO - Executing 2 tools | Data: {
+  "tools": [
+    "search_collection",
+    "get_watch_order"
+  ],
+  "extracted_params": {
+    "collection_name": "Lord Of The Rings"
+  }
+}
+2026-06-26 14:39:15 - movieverse - INFO - Executing tool: search_collection
+2026-06-26 14:39:15 - movieverse - DEBUG - Calling search_collection with: Lord Of The Rings
+2026-06-26 14:39:15 - movieverse - INFO - Searching for collection: Lord Of The Rings
+2026-06-26 14:39:15 - movieverse - DEBUG - Cleaned collection name: Lord Of The Rings
+2026-06-26 14:39:15 - movieverse - DEBUG - Searching TMDB for movies...
+2026-06-26 14:39:15 - movieverse - DEBUG - Search results: 20 movies found
+2026-06-26 14:39:15 - movieverse - WARNING - No collection found for 'Lord Of The Rings', trying variations...
+2026-06-26 14:39:15 - movieverse - DEBUG - Trying variation: Lord Of The Rings series
+2026-06-26 14:39:15 - movieverse - DEBUG - Trying variation: Lord Of The Rings collection
+2026-06-26 14:39:16 - movieverse - DEBUG - Trying variation: The Lord Of The Rings
+2026-06-26 14:39:16 - movieverse - DEBUG - Trying variation: Lord Of The Rings franchise
+2026-06-26 14:39:16 - movieverse - WARNING - No collection found for 'Lord Of The Rings'
+2026-06-26 14:39:16 - movieverse - INFO - Executing tool: get_watch_order
+2026-06-26 14:39:16 - movieverse - DEBUG - Calling get_watch_order with: Lord Of The Rings
+2026-06-26 14:39:16 - movieverse - INFO - Searching for collection: Lord Of The Rings
+2026-06-26 14:39:16 - movieverse - DEBUG - Cleaned collection name: Lord Of The Rings
+2026-06-26 14:39:16 - movieverse - DEBUG - Searching TMDB for movies...
+2026-06-26 14:39:16 - movieverse - DEBUG - Search results: 20 movies found
+2026-06-26 14:39:16 - movieverse - WARNING - No collection found for 'Lord Of The Rings', trying variations...
+2026-06-26 14:39:16 - movieverse - DEBUG - Trying variation: Lord Of The Rings series
+2026-06-26 14:39:16 - movieverse - DEBUG - Trying variation: Lord Of The Rings collection
+2026-06-26 14:39:16 - movieverse - DEBUG - Trying variation: The Lord Of The Rings
+2026-06-26 14:39:16 - movieverse - DEBUG - Trying variation: Lord Of The Rings franchise
+2026-06-26 14:39:17 - movieverse - WARNING - No collection found for 'Lord Of The Rings'
+2026-06-26 14:39:17 - movieverse - INFO - Searching for collection: The Lord of the Rings Collection
+2026-06-26 14:39:17 - movieverse - DEBUG - Cleaned collection name: The Lord of the Rings Collection
+2026-06-26 14:39:17 - movieverse - DEBUG - Searching TMDB for movies...
+2026-06-26 14:39:17 - movieverse - DEBUG - Search results: 0 movies found
+2026-06-26 14:39:17 - movieverse - WARNING - No collection found for 'The Lord of the Rings Collection', trying variations...
+2026-06-26 14:39:17 - movieverse - DEBUG - Trying variation: The Lord of the Rings Collection series
+2026-06-26 14:39:18 - movieverse - DEBUG - Trying variation: The Lord of the Rings Collection collection
+2026-06-26 14:39:18 - movieverse - DEBUG - Trying variation: The The Lord of the Rings Collection
+2026-06-26 14:39:18 - movieverse - DEBUG - Trying variation: The Lord of the Rings Collection franchise
+2026-06-26 14:39:18 - movieverse - WARNING - No collection found for 'The Lord of the Rings Collection'
+2026-06-26 14:39:18 - movieverse - WARNING - Tool get_watch_order returned error: Collection 'Lord Of The Rings' not found
+2026-06-26 14:39:18 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 2
+}
+2026-06-26 14:39:18 - movieverse - INFO - Generating response for conversation: cc844790-c5d7-4be0-9444-b46e9ff7d681
+2026-06-26 14:39:18 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 14:39:35 - movieverse - INFO - Generated response of length: 3233
+2026-06-26 14:39:35 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_collection",
+    "get_watch_order"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 14:39:35 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_collection",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:39:35 - movieverse - DEBUG - Processing tool result: search_collection | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "message",
+    "suggestion"
+  ]
+}
+2026-06-26 14:39:35 - movieverse - DEBUG - Processing tool result: get_watch_order | Data: {
+  "result_keys": [
+    "tool_name",
+    "error",
+    "collection_name",
+    "suggestion"
+  ]
+}
+2026-06-26 14:39:35 - movieverse - WARNING - Error in tool get_watch_order: Collection 'Lord Of The Rings' not found
+2026-06-26 14:39:35 - movieverse - INFO - Extracted 0 unique movies after deduplication
+2026-06-26 14:39:35 - movieverse - INFO - Extracted 0 movies from tool results | Data: {
+  "movie_titles": []
+}
+2026-06-26 14:39:35 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 3233,
+  "movies_count": 0
+}
+2026-06-26 14:43:56 - movieverse - INFO - Processing message: avengers... | Data: {
+  "conversation_id": "2f5cb72a-2b72-46a2-8c53-cb9469d9f59e"
+}
+2026-06-26 14:43:56 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "2f5cb72a-2b72-46a2-8c53-cb9469d9f59e",
+    "current_query": "avengers",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 14:43:56 - movieverse - INFO - Running agent graph
+2026-06-26 14:43:57 - movieverse - INFO - Analyzing intent for query: avengers... | Data: {
+  "conversation_id": "2f5cb72a-2b72-46a2-8c53-cb9469d9f59e"
+}
+2026-06-26 14:43:57 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "avengers",
+  "contains_watch_order": false
+}
+2026-06-26 14:43:57 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 14:43:57 - movieverse - DEBUG - Extracting movie name from: avengers
+2026-06-26 14:43:57 - movieverse - DEBUG - Extracted movie name: Avengers
+2026-06-26 14:43:57 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Avengers"
+  }
+}
+2026-06-26 14:43:57 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 14:43:57 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Avengers"
+  }
+}
+2026-06-26 14:43:57 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 14:43:57 - movieverse - DEBUG - Calling search_movie with: Avengers
+2026-06-26 14:43:57 - movieverse - INFO - Tool search_movie returned 10 items
+2026-06-26 14:43:57 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 14:43:57 - movieverse - INFO - Generating response for conversation: 2f5cb72a-2b72-46a2-8c53-cb9469d9f59e
+2026-06-26 14:43:57 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 14:44:15 - movieverse - INFO - Generated response of length: 3656
+2026-06-26 14:44:15 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 14:44:15 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 14:44:15 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 14:44:15 - movieverse - INFO - Found 10 movies from search_movie
+2026-06-26 14:44:15 - movieverse - INFO - Extracted 10 unique movies after deduplication
+2026-06-26 14:44:15 - movieverse - INFO - Extracted 10 movies from tool results | Data: {
+  "movie_titles": [
+    "The Avengers",
+    "Avengers: Endgame",
+    "Avengers: Infinity War",
+    "Avengers: Doomsday",
+    "Avengers: Age of Ultron"
+  ]
+}
+2026-06-26 14:44:15 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 3656,
+  "movies_count": 10
+}
+2026-06-26 14:44:48 - movieverse - INFO - Processing message: Lord of the Rings watch order... | Data: {
+  "conversation_id": "33d73e66-f8c3-4de2-b629-dd4eaeca45c1"
+}
+2026-06-26 14:44:48 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "33d73e66-f8c3-4de2-b629-dd4eaeca45c1",
+    "current_query": "Lord of the Rings watch order",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 14:44:48 - movieverse - INFO - Running agent graph
+2026-06-26 14:44:48 - movieverse - INFO - Analyzing intent for query: Lord of the Rings watch order... | Data: {
+  "conversation_id": "33d73e66-f8c3-4de2-b629-dd4eaeca45c1"
+}
+2026-06-26 14:44:48 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "lord of the rings watch order",
+  "contains_watch_order": true
+}
+2026-06-26 14:44:48 - movieverse - DEBUG - Watch order detected in query
+2026-06-26 14:44:48 - movieverse - DEBUG - Extracting collection name from: Lord of the Rings watch order
+2026-06-26 14:44:48 - movieverse - DEBUG - Extracted collection name: Lord Of The Rings
+2026-06-26 14:44:48 - movieverse - INFO - Extracted collection name: Lord Of The Rings
+2026-06-26 14:44:48 - movieverse - INFO - Selected tools: ['search_collection', 'get_watch_order'] | Data: {
+  "extracted_params": {
+    "collection_name": "Lord Of The Rings"
+  }
+}
+2026-06-26 14:44:48 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_collection",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:44:48 - movieverse - INFO - Executing 2 tools | Data: {
+  "tools": [
+    "search_collection",
+    "get_watch_order"
+  ],
+  "extracted_params": {
+    "collection_name": "Lord Of The Rings"
+  }
+}
+2026-06-26 14:44:48 - movieverse - INFO - Executing tool: search_collection
+2026-06-26 14:44:48 - movieverse - DEBUG - Calling search_collection with: Lord Of The Rings
+2026-06-26 14:44:48 - movieverse - INFO - Searching for collection: Lord Of The Rings
+2026-06-26 14:44:48 - movieverse - DEBUG - Cleaned collection name: Lord Of The Rings
+2026-06-26 14:44:48 - movieverse - DEBUG - Searching TMDB for movies...
+2026-06-26 14:44:49 - movieverse - DEBUG - Search results: 20 movies found
+2026-06-26 14:44:49 - movieverse - WARNING - No collection found for 'Lord Of The Rings', trying variations...
+2026-06-26 14:44:49 - movieverse - DEBUG - Trying variation: Lord Of The Rings series
+2026-06-26 14:44:49 - movieverse - DEBUG - Trying variation: Lord Of The Rings collection
+2026-06-26 14:44:49 - movieverse - DEBUG - Trying variation: The Lord Of The Rings
+2026-06-26 14:44:50 - movieverse - DEBUG - Trying variation: Lord Of The Rings franchise
+2026-06-26 14:44:50 - movieverse - WARNING - No collection found for 'Lord Of The Rings'
+2026-06-26 14:44:50 - movieverse - INFO - Executing tool: get_watch_order
+2026-06-26 14:44:50 - movieverse - DEBUG - Calling get_watch_order with: Lord Of The Rings
+2026-06-26 14:44:50 - movieverse - INFO - Searching for collection: Lord Of The Rings
+2026-06-26 14:44:50 - movieverse - DEBUG - Cleaned collection name: Lord Of The Rings
+2026-06-26 14:44:50 - movieverse - DEBUG - Searching TMDB for movies...
+2026-06-26 14:44:50 - movieverse - DEBUG - Search results: 20 movies found
+2026-06-26 14:44:50 - movieverse - WARNING - No collection found for 'Lord Of The Rings', trying variations...
+2026-06-26 14:44:50 - movieverse - DEBUG - Trying variation: Lord Of The Rings series
+2026-06-26 14:44:50 - movieverse - DEBUG - Trying variation: Lord Of The Rings collection
+2026-06-26 14:44:50 - movieverse - DEBUG - Trying variation: The Lord Of The Rings
+2026-06-26 14:44:51 - movieverse - DEBUG - Trying variation: Lord Of The Rings franchise
+2026-06-26 14:44:51 - movieverse - WARNING - No collection found for 'Lord Of The Rings'
+2026-06-26 14:44:52 - movieverse - INFO - Searching for collection: The Lord of the Rings Collection
+2026-06-26 14:44:52 - movieverse - DEBUG - Cleaned collection name: The Lord of the Rings Collection
+2026-06-26 14:44:52 - movieverse - DEBUG - Searching TMDB for movies...
+2026-06-26 14:44:52 - movieverse - DEBUG - Search results: 0 movies found
+2026-06-26 14:44:52 - movieverse - WARNING - No collection found for 'The Lord of the Rings Collection', trying variations...
+2026-06-26 14:44:52 - movieverse - DEBUG - Trying variation: The Lord of the Rings Collection series
+2026-06-26 14:44:52 - movieverse - DEBUG - Trying variation: The Lord of the Rings Collection collection
+2026-06-26 14:44:52 - movieverse - DEBUG - Trying variation: The The Lord of the Rings Collection
+2026-06-26 14:44:52 - movieverse - DEBUG - Trying variation: The Lord of the Rings Collection franchise
+2026-06-26 14:44:52 - movieverse - WARNING - No collection found for 'The Lord of the Rings Collection'
+2026-06-26 14:44:52 - movieverse - WARNING - Tool get_watch_order returned error: Collection 'Lord Of The Rings' not found
+2026-06-26 14:44:52 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 2
+}
+2026-06-26 14:44:52 - movieverse - INFO - Generating response for conversation: 33d73e66-f8c3-4de2-b629-dd4eaeca45c1
+2026-06-26 14:44:52 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 14:45:09 - movieverse - INFO - Generated response of length: 3101
+2026-06-26 14:45:09 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_collection",
+    "get_watch_order"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 14:45:09 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_collection",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:45:09 - movieverse - DEBUG - Processing tool result: search_collection | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "message",
+    "suggestion"
+  ]
+}
+2026-06-26 14:45:09 - movieverse - DEBUG - Processing tool result: get_watch_order | Data: {
+  "result_keys": [
+    "tool_name",
+    "error",
+    "collection_name",
+    "suggestion"
+  ]
+}
+2026-06-26 14:45:09 - movieverse - WARNING - Error in tool get_watch_order: Collection 'Lord Of The Rings' not found
+2026-06-26 14:45:09 - movieverse - INFO - Extracted 0 unique movies after deduplication
+2026-06-26 14:45:09 - movieverse - INFO - Extracted 0 movies from tool results | Data: {
+  "movie_titles": []
+}
+2026-06-26 14:45:09 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 3101,
+  "movies_count": 0
+}
+2026-06-26 14:49:04 - movieverse - INFO - Processing message: Lord of the Rings watch order... | Data: {
+  "conversation_id": "5b007b8e-01b3-4571-887d-b953eb4bd8b9"
+}
+2026-06-26 14:49:04 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "5b007b8e-01b3-4571-887d-b953eb4bd8b9",
+    "current_query": "Lord of the Rings watch order",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 14:49:04 - movieverse - INFO - Running agent graph
+2026-06-26 14:49:04 - movieverse - INFO - Analyzing intent for query: Lord of the Rings watch order... | Data: {
+  "conversation_id": "5b007b8e-01b3-4571-887d-b953eb4bd8b9"
+}
+2026-06-26 14:49:04 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "lord of the rings watch order",
+  "contains_watch_order": true
+}
+2026-06-26 14:49:04 - movieverse - DEBUG - Watch order detected in query
+2026-06-26 14:49:04 - movieverse - DEBUG - Extracting collection name from: Lord of the Rings watch order
+2026-06-26 14:49:04 - movieverse - DEBUG - Extracted collection name: Lord Of The Rings
+2026-06-26 14:49:04 - movieverse - INFO - Extracted collection name: Lord Of The Rings
+2026-06-26 14:49:04 - movieverse - INFO - Selected tools: ['search_collection', 'get_watch_order'] | Data: {
+  "extracted_params": {
+    "collection_name": "Lord Of The Rings"
+  }
+}
+2026-06-26 14:49:04 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_collection",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:49:04 - movieverse - INFO - Executing 2 tools | Data: {
+  "tools": [
+    "search_collection",
+    "get_watch_order"
+  ],
+  "extracted_params": {
+    "collection_name": "Lord Of The Rings"
+  }
+}
+2026-06-26 14:49:04 - movieverse - INFO - Executing tool: search_collection
+2026-06-26 14:49:04 - movieverse - DEBUG - Calling search_collection with: Lord Of The Rings
+2026-06-26 14:49:04 - movieverse - INFO - Searching for collection: Lord Of The Rings
+2026-06-26 14:49:04 - movieverse - DEBUG - Cleaned collection name: Lord Of The Rings
+2026-06-26 14:49:04 - movieverse - DEBUG - Searching TMDB for movies...
+2026-06-26 14:49:04 - movieverse - DEBUG - Search results: 20 movies found
+2026-06-26 14:49:04 - movieverse - WARNING - No collection found for 'Lord Of The Rings', trying variations...
+2026-06-26 14:49:04 - movieverse - DEBUG - Trying variation: Lord Of The Rings series
+2026-06-26 14:49:05 - movieverse - DEBUG - Trying variation: Lord Of The Rings collection
+2026-06-26 14:49:05 - movieverse - DEBUG - Trying variation: The Lord Of The Rings
+2026-06-26 14:49:05 - movieverse - DEBUG - Trying variation: Lord Of The Rings franchise
+2026-06-26 14:49:05 - movieverse - WARNING - No collection found for 'Lord Of The Rings'
+2026-06-26 14:49:05 - movieverse - INFO - Executing tool: get_watch_order
+2026-06-26 14:49:05 - movieverse - DEBUG - Calling get_watch_order with: Lord Of The Rings
+2026-06-26 14:49:05 - movieverse - INFO - Searching for collection: Lord Of The Rings
+2026-06-26 14:49:05 - movieverse - DEBUG - Cleaned collection name: Lord Of The Rings
+2026-06-26 14:49:05 - movieverse - DEBUG - Searching TMDB for movies...
+2026-06-26 14:49:06 - movieverse - DEBUG - Search results: 20 movies found
+2026-06-26 14:49:06 - movieverse - WARNING - No collection found for 'Lord Of The Rings', trying variations...
+2026-06-26 14:49:06 - movieverse - DEBUG - Trying variation: Lord Of The Rings series
+2026-06-26 14:49:06 - movieverse - DEBUG - Trying variation: Lord Of The Rings collection
+2026-06-26 14:49:06 - movieverse - DEBUG - Trying variation: The Lord Of The Rings
+2026-06-26 14:49:06 - movieverse - DEBUG - Trying variation: Lord Of The Rings franchise
+2026-06-26 14:49:06 - movieverse - WARNING - No collection found for 'Lord Of The Rings'
+2026-06-26 14:49:07 - movieverse - INFO - Searching for collection: The Lord of the Rings Collection
+2026-06-26 14:49:07 - movieverse - DEBUG - Cleaned collection name: The Lord of the Rings Collection
+2026-06-26 14:49:07 - movieverse - DEBUG - Searching TMDB for movies...
+2026-06-26 14:49:07 - movieverse - DEBUG - Search results: 0 movies found
+2026-06-26 14:49:07 - movieverse - WARNING - No collection found for 'The Lord of the Rings Collection', trying variations...
+2026-06-26 14:49:07 - movieverse - DEBUG - Trying variation: The Lord of the Rings Collection series
+2026-06-26 14:49:08 - movieverse - DEBUG - Trying variation: The Lord of the Rings Collection collection
+2026-06-26 14:49:08 - movieverse - DEBUG - Trying variation: The The Lord of the Rings Collection
+2026-06-26 14:49:08 - movieverse - DEBUG - Trying variation: The Lord of the Rings Collection franchise
+2026-06-26 14:49:08 - movieverse - WARNING - No collection found for 'The Lord of the Rings Collection'
+2026-06-26 14:49:08 - movieverse - WARNING - Tool get_watch_order returned error: Collection 'Lord Of The Rings' not found
+2026-06-26 14:49:08 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 2
+}
+2026-06-26 14:49:08 - movieverse - INFO - Generating response for conversation: 5b007b8e-01b3-4571-887d-b953eb4bd8b9
+2026-06-26 14:49:08 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 14:49:19 - movieverse - INFO - Generated response of length: 3221
+2026-06-26 14:49:19 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_collection",
+    "get_watch_order"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 14:49:19 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_collection",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:49:19 - movieverse - DEBUG - Processing tool result: search_collection | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "message",
+    "suggestion"
+  ]
+}
+2026-06-26 14:49:19 - movieverse - DEBUG - Processing tool result: get_watch_order | Data: {
+  "result_keys": [
+    "tool_name",
+    "error",
+    "collection_name",
+    "suggestion"
+  ]
+}
+2026-06-26 14:49:19 - movieverse - WARNING - Error in tool get_watch_order: Collection 'Lord Of The Rings' not found
+2026-06-26 14:49:19 - movieverse - INFO - Extracted 0 unique movies after deduplication
+2026-06-26 14:49:19 - movieverse - INFO - Extracted 0 movies from tool results | Data: {
+  "movie_titles": []
+}
+2026-06-26 14:49:19 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 3221,
+  "movies_count": 0
+}
+2026-06-26 14:55:45 - movieverse - INFO - Processing message: Lord of the Rings watch order... | Data: {
+  "conversation_id": "f9207753-9a1e-4ac0-9a12-0092b75130c3"
+}
+2026-06-26 14:55:45 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "f9207753-9a1e-4ac0-9a12-0092b75130c3",
+    "current_query": "Lord of the Rings watch order",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 14:55:45 - movieverse - INFO - Running agent graph
+2026-06-26 14:55:45 - movieverse - INFO - Analyzing intent for query: Lord of the Rings watch order... | Data: {
+  "conversation_id": "f9207753-9a1e-4ac0-9a12-0092b75130c3"
+}
+2026-06-26 14:55:45 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "lord of the rings watch order",
+  "contains_watch_order": true
+}
+2026-06-26 14:55:45 - movieverse - DEBUG - Watch order detected in query
+2026-06-26 14:55:45 - movieverse - DEBUG - Extracting collection name from: Lord of the Rings watch order
+2026-06-26 14:55:45 - movieverse - DEBUG - Extracted collection name: Lord Of The Rings
+2026-06-26 14:55:45 - movieverse - INFO - Extracted collection name: Lord Of The Rings
+2026-06-26 14:55:45 - movieverse - INFO - Selected tools: ['search_collection', 'get_watch_order'] | Data: {
+  "extracted_params": {
+    "collection_name": "Lord Of The Rings"
+  }
+}
+2026-06-26 14:55:45 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_collection",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:55:45 - movieverse - INFO - Executing 2 tools | Data: {
+  "tools": [
+    "search_collection",
+    "get_watch_order"
+  ],
+  "extracted_params": {
+    "collection_name": "Lord Of The Rings"
+  }
+}
+2026-06-26 14:55:45 - movieverse - INFO - Executing tool: search_collection
+2026-06-26 14:55:45 - movieverse - DEBUG - Calling search_collection with: Lord Of The Rings
+2026-06-26 14:55:45 - movieverse - INFO - Searching for collection: Lord Of The Rings
+2026-06-26 14:55:45 - movieverse - DEBUG - Cleaned collection name: Lord Of The Rings
+2026-06-26 14:55:45 - movieverse - DEBUG - Searching TMDB for movies...
+2026-06-26 14:55:45 - movieverse - DEBUG - Search results: 20 movies found
+2026-06-26 14:55:45 - movieverse - WARNING - No collection found for 'Lord Of The Rings', trying variations...
+2026-06-26 14:55:45 - movieverse - DEBUG - Trying variation: Lord Of The Rings series
+2026-06-26 14:55:46 - movieverse - DEBUG - Trying variation: Lord Of The Rings collection
+2026-06-26 14:55:46 - movieverse - DEBUG - Trying variation: The Lord Of The Rings
+2026-06-26 14:55:46 - movieverse - DEBUG - Trying variation: Lord Of The Rings franchise
+2026-06-26 14:55:46 - movieverse - WARNING - No collection found for 'Lord Of The Rings'
+2026-06-26 14:55:46 - movieverse - INFO - Executing tool: get_watch_order
+2026-06-26 14:55:46 - movieverse - DEBUG - Calling get_watch_order with: Lord Of The Rings
+2026-06-26 14:55:46 - movieverse - INFO - Searching for collection: Lord Of The Rings
+2026-06-26 14:55:46 - movieverse - DEBUG - Cleaned collection name: Lord Of The Rings
+2026-06-26 14:55:46 - movieverse - DEBUG - Searching TMDB for movies...
+2026-06-26 14:55:46 - movieverse - DEBUG - Search results: 20 movies found
+2026-06-26 14:55:46 - movieverse - WARNING - No collection found for 'Lord Of The Rings', trying variations...
+2026-06-26 14:55:46 - movieverse - DEBUG - Trying variation: Lord Of The Rings series
+2026-06-26 14:55:46 - movieverse - DEBUG - Trying variation: Lord Of The Rings collection
+2026-06-26 14:55:47 - movieverse - DEBUG - Trying variation: The Lord Of The Rings
+2026-06-26 14:55:47 - movieverse - DEBUG - Trying variation: Lord Of The Rings franchise
+2026-06-26 14:55:47 - movieverse - WARNING - No collection found for 'Lord Of The Rings'
+2026-06-26 14:55:48 - movieverse - INFO - Searching for collection: The Lord of the Rings Collection
+2026-06-26 14:55:48 - movieverse - DEBUG - Cleaned collection name: The Lord of the Rings Collection
+2026-06-26 14:55:48 - movieverse - DEBUG - Searching TMDB for movies...
+2026-06-26 14:55:48 - movieverse - DEBUG - Search results: 0 movies found
+2026-06-26 14:55:48 - movieverse - WARNING - No collection found for 'The Lord of the Rings Collection', trying variations...
+2026-06-26 14:55:48 - movieverse - DEBUG - Trying variation: The Lord of the Rings Collection series
+2026-06-26 14:55:48 - movieverse - DEBUG - Trying variation: The Lord of the Rings Collection collection
+2026-06-26 14:55:48 - movieverse - DEBUG - Trying variation: The The Lord of the Rings Collection
+2026-06-26 14:55:48 - movieverse - DEBUG - Trying variation: The Lord of the Rings Collection franchise
+2026-06-26 14:55:48 - movieverse - WARNING - No collection found for 'The Lord of the Rings Collection'
+2026-06-26 14:55:48 - movieverse - WARNING - Tool get_watch_order returned error: Collection 'Lord Of The Rings' not found
+2026-06-26 14:55:48 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 2
+}
+2026-06-26 14:55:48 - movieverse - INFO - Generating response for conversation: f9207753-9a1e-4ac0-9a12-0092b75130c3
+2026-06-26 14:55:48 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 14:55:59 - movieverse - INFO - Generated response of length: 2863
+2026-06-26 14:55:59 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_collection",
+    "get_watch_order"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 14:55:59 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_collection",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:55:59 - movieverse - DEBUG - Processing tool result: search_collection | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "message",
+    "suggestion"
+  ]
+}
+2026-06-26 14:55:59 - movieverse - DEBUG - Processing tool result: get_watch_order | Data: {
+  "result_keys": [
+    "tool_name",
+    "error",
+    "collection_name",
+    "suggestion"
+  ]
+}
+2026-06-26 14:55:59 - movieverse - WARNING - Error in tool get_watch_order: Collection 'Lord Of The Rings' not found
+2026-06-26 14:55:59 - movieverse - INFO - Extracted 0 unique movies after deduplication
+2026-06-26 14:55:59 - movieverse - INFO - Extracted 0 movies from tool results | Data: {
+  "movie_titles": []
+}
+2026-06-26 14:55:59 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 2863,
+  "movies_count": 0
+}
+2026-06-26 14:56:17 - movieverse - INFO - Processing message: Lord of the Rings watch order... | Data: {
+  "conversation_id": "89d07ca5-7709-4e44-8886-463bd7b63ebe"
+}
+2026-06-26 14:56:17 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "89d07ca5-7709-4e44-8886-463bd7b63ebe",
+    "current_query": "Lord of the Rings watch order",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 14:56:17 - movieverse - INFO - Running agent graph
+2026-06-26 14:56:17 - movieverse - INFO - Analyzing intent for query: Lord of the Rings watch order... | Data: {
+  "conversation_id": "89d07ca5-7709-4e44-8886-463bd7b63ebe"
+}
+2026-06-26 14:56:17 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "lord of the rings watch order",
+  "contains_watch_order": true
+}
+2026-06-26 14:56:17 - movieverse - DEBUG - Watch order detected in query
+2026-06-26 14:56:17 - movieverse - DEBUG - Extracting collection name from: Lord of the Rings watch order
+2026-06-26 14:56:17 - movieverse - DEBUG - Extracted collection name: Lord Of The Rings
+2026-06-26 14:56:17 - movieverse - INFO - Extracted collection name: Lord Of The Rings
+2026-06-26 14:56:17 - movieverse - INFO - Selected tools: ['search_collection', 'get_watch_order'] | Data: {
+  "extracted_params": {
+    "collection_name": "Lord Of The Rings"
+  }
+}
+2026-06-26 14:56:17 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_collection",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:56:17 - movieverse - INFO - Executing 2 tools | Data: {
+  "tools": [
+    "search_collection",
+    "get_watch_order"
+  ],
+  "extracted_params": {
+    "collection_name": "Lord Of The Rings"
+  }
+}
+2026-06-26 14:56:17 - movieverse - INFO - Executing tool: search_collection
+2026-06-26 14:56:17 - movieverse - DEBUG - Calling search_collection with: Lord Of The Rings
+2026-06-26 14:56:17 - movieverse - INFO - Searching for collection: Lord Of The Rings
+2026-06-26 14:56:17 - movieverse - DEBUG - Cleaned collection name: Lord Of The Rings
+2026-06-26 14:56:17 - movieverse - DEBUG - Searching TMDB for movies...
+2026-06-26 14:56:18 - movieverse - DEBUG - Search results: 20 movies found
+2026-06-26 14:56:18 - movieverse - WARNING - No collection found for 'Lord Of The Rings', trying variations...
+2026-06-26 14:56:18 - movieverse - DEBUG - Trying variation: Lord Of The Rings series
+2026-06-26 14:56:18 - movieverse - DEBUG - Trying variation: Lord Of The Rings collection
+2026-06-26 14:56:18 - movieverse - DEBUG - Trying variation: The Lord Of The Rings
+2026-06-26 14:56:18 - movieverse - DEBUG - Trying variation: Lord Of The Rings franchise
+2026-06-26 14:56:18 - movieverse - WARNING - No collection found for 'Lord Of The Rings'
+2026-06-26 14:56:18 - movieverse - INFO - Executing tool: get_watch_order
+2026-06-26 14:56:18 - movieverse - DEBUG - Calling get_watch_order with: Lord Of The Rings
+2026-06-26 14:56:18 - movieverse - INFO - Searching for collection: Lord Of The Rings
+2026-06-26 14:56:18 - movieverse - DEBUG - Cleaned collection name: Lord Of The Rings
+2026-06-26 14:56:18 - movieverse - DEBUG - Searching TMDB for movies...
+2026-06-26 14:56:18 - movieverse - DEBUG - Search results: 20 movies found
+2026-06-26 14:56:18 - movieverse - WARNING - No collection found for 'Lord Of The Rings', trying variations...
+2026-06-26 14:56:18 - movieverse - DEBUG - Trying variation: Lord Of The Rings series
+2026-06-26 14:56:19 - movieverse - DEBUG - Trying variation: Lord Of The Rings collection
+2026-06-26 14:56:19 - movieverse - DEBUG - Trying variation: The Lord Of The Rings
+2026-06-26 14:56:19 - movieverse - DEBUG - Trying variation: Lord Of The Rings franchise
+2026-06-26 14:56:19 - movieverse - WARNING - No collection found for 'Lord Of The Rings'
+2026-06-26 14:56:20 - movieverse - INFO - Searching for collection: The Lord of the Rings Collection
+2026-06-26 14:56:20 - movieverse - DEBUG - Cleaned collection name: The Lord of the Rings Collection
+2026-06-26 14:56:20 - movieverse - DEBUG - Searching TMDB for movies...
+2026-06-26 14:56:20 - movieverse - DEBUG - Search results: 0 movies found
+2026-06-26 14:56:20 - movieverse - WARNING - No collection found for 'The Lord of the Rings Collection', trying variations...
+2026-06-26 14:56:20 - movieverse - DEBUG - Trying variation: The Lord of the Rings Collection series
+2026-06-26 14:56:20 - movieverse - DEBUG - Trying variation: The Lord of the Rings Collection collection
+2026-06-26 14:56:20 - movieverse - DEBUG - Trying variation: The The Lord of the Rings Collection
+2026-06-26 14:56:20 - movieverse - DEBUG - Trying variation: The Lord of the Rings Collection franchise
+2026-06-26 14:56:20 - movieverse - WARNING - No collection found for 'The Lord of the Rings Collection'
+2026-06-26 14:56:20 - movieverse - WARNING - Tool get_watch_order returned error: Collection 'Lord Of The Rings' not found
+2026-06-26 14:56:20 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 2
+}
+2026-06-26 14:56:20 - movieverse - INFO - Generating response for conversation: 89d07ca5-7709-4e44-8886-463bd7b63ebe
+2026-06-26 14:56:20 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 14:56:32 - movieverse - INFO - Generated response of length: 2775
+2026-06-26 14:56:32 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_collection",
+    "get_watch_order"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 14:56:32 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_collection",
+    "get_watch_order"
+  ]
+}
+2026-06-26 14:56:32 - movieverse - DEBUG - Processing tool result: search_collection | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "message",
+    "suggestion"
+  ]
+}
+2026-06-26 14:56:32 - movieverse - DEBUG - Processing tool result: get_watch_order | Data: {
+  "result_keys": [
+    "tool_name",
+    "error",
+    "collection_name",
+    "suggestion"
+  ]
+}
+2026-06-26 14:56:32 - movieverse - WARNING - Error in tool get_watch_order: Collection 'Lord Of The Rings' not found
+2026-06-26 14:56:32 - movieverse - INFO - Extracted 0 unique movies after deduplication
+2026-06-26 14:56:32 - movieverse - INFO - Extracted 0 movies from tool results | Data: {
+  "movie_titles": []
+}
+2026-06-26 14:56:32 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 2775,
+  "movies_count": 0
+}
+2026-06-26 14:57:30 - movieverse - INFO - Processing message: fast and furious... | Data: {
+  "conversation_id": "116ea4e3-54ff-41db-b00c-7533f1a64aea"
+}
+2026-06-26 14:57:30 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "116ea4e3-54ff-41db-b00c-7533f1a64aea",
+    "current_query": "fast and furious",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 14:57:30 - movieverse - INFO - Running agent graph
+2026-06-26 14:57:30 - movieverse - INFO - Analyzing intent for query: fast and furious... | Data: {
+  "conversation_id": "116ea4e3-54ff-41db-b00c-7533f1a64aea"
+}
+2026-06-26 14:57:30 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious",
+  "contains_watch_order": false
+}
+2026-06-26 14:57:30 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 14:57:30 - movieverse - DEBUG - Extracting movie name from: fast and furious
+2026-06-26 14:57:30 - movieverse - DEBUG - Extracted movie name: Fast And Furious
+2026-06-26 14:57:30 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious"
+  }
+}
+2026-06-26 14:57:30 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 14:57:30 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious"
+  }
+}
+2026-06-26 14:57:30 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 14:57:30 - movieverse - DEBUG - Calling search_movie with: Fast And Furious
+2026-06-26 14:57:30 - movieverse - INFO - Tool search_movie returned 10 items
+2026-06-26 14:57:30 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 14:57:30 - movieverse - INFO - Generating response for conversation: 116ea4e3-54ff-41db-b00c-7533f1a64aea
+2026-06-26 14:57:30 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 14:58:10 - movieverse - INFO - Generated response of length: 3449
+2026-06-26 14:58:10 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 14:58:10 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 14:58:10 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 14:58:10 - movieverse - INFO - Found 10 movies from search_movie
+2026-06-26 14:58:10 - movieverse - INFO - Extracted 10 unique movies after deduplication
+2026-06-26 14:58:10 - movieverse - INFO - Extracted 10 movies from tool results | Data: {
+  "movie_titles": [
+    "Fast and Furious",
+    "Christine: Fast and Furious",
+    "The Fast and the Furious",
+    "Fast and Furious",
+    "The Fast and the Furious: Tokyo Drift"
+  ]
+}
+2026-06-26 14:58:10 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 3449,
+  "movies_count": 10
+}
+2026-06-26 14:58:32 - movieverse - INFO - Processing message: Fast and Furious... | Data: {
+  "conversation_id": "d68e2549-366c-4665-a923-67deaf08ff40"
+}
+2026-06-26 14:58:32 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "d68e2549-366c-4665-a923-67deaf08ff40",
+    "current_query": "Fast and Furious",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 14:58:32 - movieverse - INFO - Running agent graph
+2026-06-26 14:58:32 - movieverse - INFO - Analyzing intent for query: Fast and Furious... | Data: {
+  "conversation_id": "d68e2549-366c-4665-a923-67deaf08ff40"
+}
+2026-06-26 14:58:32 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious",
+  "contains_watch_order": false
+}
+2026-06-26 14:58:32 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 14:58:32 - movieverse - DEBUG - Extracting movie name from: Fast and Furious
+2026-06-26 14:58:32 - movieverse - DEBUG - Extracted movie name: Fast And Furious
+2026-06-26 14:58:32 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious"
+  }
+}
+2026-06-26 14:58:32 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 14:58:32 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious"
+  }
+}
+2026-06-26 14:58:32 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 14:58:32 - movieverse - DEBUG - Calling search_movie with: Fast And Furious
+2026-06-26 14:58:33 - movieverse - INFO - Tool search_movie returned 10 items
+2026-06-26 14:58:33 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 14:58:33 - movieverse - INFO - Generating response for conversation: d68e2549-366c-4665-a923-67deaf08ff40
+2026-06-26 14:58:33 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 14:58:48 - movieverse - INFO - Generated response of length: 3278
+2026-06-26 14:58:48 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 14:58:48 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 14:58:48 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 14:58:48 - movieverse - INFO - Found 10 movies from search_movie
+2026-06-26 14:58:48 - movieverse - INFO - Extracted 10 unique movies after deduplication
+2026-06-26 14:58:48 - movieverse - INFO - Extracted 10 movies from tool results | Data: {
+  "movie_titles": [
+    "Fast and Furious",
+    "Christine: Fast and Furious",
+    "The Fast and the Furious",
+    "Fast and Furious",
+    "The Fast and the Furious: Tokyo Drift"
+  ]
+}
+2026-06-26 14:58:48 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 3278,
+  "movies_count": 10
+}
+2026-06-26 15:05:20 - movieverse - INFO - Processing message: fast and furious 7... | Data: {
+  "conversation_id": "dabac03b-d841-4d76-ae59-cafe73e63dc5"
+}
+2026-06-26 15:05:20 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "dabac03b-d841-4d76-ae59-cafe73e63dc5",
+    "current_query": "fast and furious 7",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:05:20 - movieverse - INFO - Running agent graph
+2026-06-26 15:05:20 - movieverse - INFO - Analyzing intent for query: fast and furious 7... | Data: {
+  "conversation_id": "dabac03b-d841-4d76-ae59-cafe73e63dc5"
+}
+2026-06-26 15:05:20 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious 7",
+  "contains_watch_order": false
+}
+2026-06-26 15:05:20 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 15:05:20 - movieverse - DEBUG - Extracting movie name from: fast and furious 7
+2026-06-26 15:05:20 - movieverse - DEBUG - Extracted movie name: Fast And Furious 7
+2026-06-26 15:05:20 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious 7"
+  }
+}
+2026-06-26 15:05:20 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:05:20 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious 7"
+  }
+}
+2026-06-26 15:05:20 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:05:20 - movieverse - DEBUG - Calling search_movie with: Fast And Furious 7
+2026-06-26 15:05:21 - movieverse - INFO - Tool search_movie returned 1 items
+2026-06-26 15:05:21 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:05:21 - movieverse - INFO - Generating response for conversation: dabac03b-d841-4d76-ae59-cafe73e63dc5
+2026-06-26 15:05:21 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:05:35 - movieverse - INFO - Generated response of length: 1916
+2026-06-26 15:05:35 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:05:35 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:05:35 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:05:35 - movieverse - INFO - Found 1 movies from search_movie
+2026-06-26 15:05:35 - movieverse - INFO - Extracted 1 unique movies after deduplication
+2026-06-26 15:05:35 - movieverse - INFO - Extracted 1 movies from tool results | Data: {
+  "movie_titles": [
+    "Furious 7"
+  ]
+}
+2026-06-26 15:05:35 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 1916,
+  "movies_count": 1
+}
+2026-06-26 15:08:57 - movieverse - INFO - Processing message: fast and furious 8... | Data: {
+  "conversation_id": "4100cb6d-90f1-4e4a-8468-6530f663cb86"
+}
+2026-06-26 15:08:57 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "4100cb6d-90f1-4e4a-8468-6530f663cb86",
+    "current_query": "fast and furious 8",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:08:57 - movieverse - INFO - Running agent graph
+2026-06-26 15:08:57 - movieverse - INFO - Analyzing intent for query: fast and furious 8... | Data: {
+  "conversation_id": "4100cb6d-90f1-4e4a-8468-6530f663cb86"
+}
+2026-06-26 15:08:57 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious 8",
+  "contains_watch_order": false
+}
+2026-06-26 15:08:57 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 15:08:57 - movieverse - DEBUG - Extracting movie name from: fast and furious 8
+2026-06-26 15:08:57 - movieverse - DEBUG - Extracted movie name: Fast And Furious 8
+2026-06-26 15:08:57 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious 8"
+  }
+}
+2026-06-26 15:08:57 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:08:57 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious 8"
+  }
+}
+2026-06-26 15:08:57 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:08:57 - movieverse - DEBUG - Calling search_movie with: Fast And Furious 8
+2026-06-26 15:08:58 - movieverse - INFO - Tool search_movie returned 3 items
+2026-06-26 15:08:58 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:08:58 - movieverse - INFO - Generating response for conversation: 4100cb6d-90f1-4e4a-8468-6530f663cb86
+2026-06-26 15:08:58 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:09:06 - movieverse - INFO - Generated response of length: 1833
+2026-06-26 15:09:06 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:09:06 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:09:06 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:09:06 - movieverse - INFO - Found 3 movies from search_movie
+2026-06-26 15:09:06 - movieverse - INFO - Extracted 3 unique movies after deduplication
+2026-06-26 15:09:06 - movieverse - INFO - Extracted 3 movies from tool results | Data: {
+  "movie_titles": [
+    "Superfast!",
+    "The Fate of the Furious",
+    "Fast & Furious Presents: Hobbs & Shaw"
+  ]
+}
+2026-06-26 15:09:06 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 1833,
+  "movies_count": 3
+}
+2026-06-26 15:16:26 - movieverse - INFO - Processing message: fast and furious 9... | Data: {
+  "conversation_id": "48223461-3584-4bcd-8e26-21f64f5afaa8"
+}
+2026-06-26 15:16:26 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "48223461-3584-4bcd-8e26-21f64f5afaa8",
+    "current_query": "fast and furious 9",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:16:26 - movieverse - INFO - Running agent graph
+2026-06-26 15:16:26 - movieverse - INFO - Analyzing intent for query: fast and furious 9... | Data: {
+  "conversation_id": "48223461-3584-4bcd-8e26-21f64f5afaa8"
+}
+2026-06-26 15:16:26 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious 9",
+  "contains_watch_order": false
+}
+2026-06-26 15:16:26 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 15:16:26 - movieverse - DEBUG - Extracting movie name from: fast and furious 9
+2026-06-26 15:16:26 - movieverse - DEBUG - Extracted movie name: Fast And Furious 9
+2026-06-26 15:16:26 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious 9"
+  }
+}
+2026-06-26 15:16:26 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:16:26 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious 9"
+  }
+}
+2026-06-26 15:16:26 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:16:26 - movieverse - DEBUG - Calling search_movie with: Fast And Furious 9
+2026-06-26 15:16:26 - movieverse - INFO - Tool search_movie returned 1 items
+2026-06-26 15:16:26 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:16:26 - movieverse - INFO - Generating response for conversation: 48223461-3584-4bcd-8e26-21f64f5afaa8
+2026-06-26 15:16:26 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:16:37 - movieverse - INFO - Generated response of length: 2450
+2026-06-26 15:16:37 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:16:37 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:16:37 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:16:37 - movieverse - INFO - Found 1 movies from search_movie
+2026-06-26 15:16:37 - movieverse - INFO - Extracted 1 unique movies after deduplication
+2026-06-26 15:16:37 - movieverse - INFO - Extracted 1 movies from tool results | Data: {
+  "movie_titles": [
+    "F9"
+  ]
+}
+2026-06-26 15:16:37 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 2450,
+  "movies_count": 1
+}
+2026-06-26 15:26:41 - movieverse - INFO - Initializing AgentGraph
+2026-06-26 15:26:41 - movieverse - INFO - Initializing AgentNodes
+2026-06-26 15:26:41 - movieverse - INFO - AgentNodes initialized with tools | Data: {
+  "tools": [
+    "search_movie",
+    "get_movie_details",
+    "search_collection",
+    "get_recommendations",
+    "get_actor_movies",
+    "get_watch_order"
+  ]
+}
+2026-06-26 15:26:41 - movieverse - DEBUG - Building agent workflow graph
+2026-06-26 15:26:41 - movieverse - DEBUG - Agent workflow graph built successfully
+2026-06-26 15:26:41 - movieverse - INFO - AgentGraph initialized successfully
+2026-06-26 15:26:43 - movieverse - INFO - Initializing AgentGraph
+2026-06-26 15:26:44 - movieverse - INFO - Initializing AgentNodes
+2026-06-26 15:26:44 - movieverse - INFO - AgentNodes initialized with tools | Data: {
+  "tools": [
+    "search_movie",
+    "get_movie_details",
+    "search_collection",
+    "get_recommendations",
+    "get_actor_movies",
+    "get_watch_order"
+  ]
+}
+2026-06-26 15:26:44 - movieverse - DEBUG - Building agent workflow graph
+2026-06-26 15:26:44 - movieverse - DEBUG - Agent workflow graph built successfully
+2026-06-26 15:26:44 - movieverse - INFO - AgentGraph initialized successfully
+2026-06-26 15:30:06 - movieverse - INFO - Processing message: fast and furious 9... | Data: {
+  "conversation_id": "a973b05a-31f0-491b-9f9c-2ce9721e5961"
+}
+2026-06-26 15:30:06 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "a973b05a-31f0-491b-9f9c-2ce9721e5961",
+    "current_query": "fast and furious 9",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:30:06 - movieverse - INFO - Running agent graph
+2026-06-26 15:30:06 - movieverse - INFO - Analyzing intent for query: fast and furious 9... | Data: {
+  "conversation_id": "a973b05a-31f0-491b-9f9c-2ce9721e5961"
+}
+2026-06-26 15:30:06 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious 9",
+  "contains_watch_order": false
+}
+2026-06-26 15:30:06 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 15:30:06 - movieverse - DEBUG - Extracting movie name from: fast and furious 9
+2026-06-26 15:30:06 - movieverse - DEBUG - Extracted movie name: Fast And Furious 9
+2026-06-26 15:30:06 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious 9"
+  }
+}
+2026-06-26 15:30:06 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:30:06 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious 9"
+  }
+}
+2026-06-26 15:30:06 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:30:06 - movieverse - DEBUG - Calling search_movie with: Fast And Furious 9
+2026-06-26 15:30:06 - movieverse - INFO - Tool search_movie returned 1 items
+2026-06-26 15:30:06 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:30:06 - movieverse - INFO - Generating response for conversation: a973b05a-31f0-491b-9f9c-2ce9721e5961
+2026-06-26 15:30:06 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:30:19 - movieverse - INFO - Generated response of length: 1660
+2026-06-26 15:30:19 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:30:19 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:30:19 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:30:19 - movieverse - INFO - Found 1 movies from search_movie
+2026-06-26 15:30:19 - movieverse - INFO - Extracted 1 unique movies after deduplication
+2026-06-26 15:30:19 - movieverse - INFO - Extracted 1 movies from tool results | Data: {
+  "movie_titles": [
+    "F9"
+  ]
+}
+2026-06-26 15:30:19 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 1660,
+  "movies_count": 1
+}
+2026-06-26 15:32:35 - movieverse - INFO - Processing message: fast and furious 8... | Data: {
+  "conversation_id": "7c07dd81-fe9a-40ce-b6fc-78dc3e768e46"
+}
+2026-06-26 15:32:35 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "7c07dd81-fe9a-40ce-b6fc-78dc3e768e46",
+    "current_query": "fast and furious 8",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:32:35 - movieverse - INFO - Running agent graph
+2026-06-26 15:32:35 - movieverse - INFO - Analyzing intent for query: fast and furious 8... | Data: {
+  "conversation_id": "7c07dd81-fe9a-40ce-b6fc-78dc3e768e46"
+}
+2026-06-26 15:32:35 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious 8",
+  "contains_watch_order": false
+}
+2026-06-26 15:32:35 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 15:32:35 - movieverse - DEBUG - Extracting movie name from: fast and furious 8
+2026-06-26 15:32:35 - movieverse - DEBUG - Extracted movie name: Fast And Furious 8
+2026-06-26 15:32:35 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious 8"
+  }
+}
+2026-06-26 15:32:35 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:32:35 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious 8"
+  }
+}
+2026-06-26 15:32:35 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:32:35 - movieverse - DEBUG - Calling search_movie with: Fast And Furious 8
+2026-06-26 15:32:35 - movieverse - INFO - Tool search_movie returned 3 items
+2026-06-26 15:32:35 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:32:35 - movieverse - INFO - Generating response for conversation: 7c07dd81-fe9a-40ce-b6fc-78dc3e768e46
+2026-06-26 15:32:35 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:33:02 - movieverse - INFO - Generated response of length: 1674
+2026-06-26 15:33:02 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:33:02 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:33:02 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:33:02 - movieverse - INFO - Found 3 movies from search_movie
+2026-06-26 15:33:02 - movieverse - INFO - Extracted 3 unique movies after deduplication
+2026-06-26 15:33:02 - movieverse - INFO - Extracted 3 movies from tool results | Data: {
+  "movie_titles": [
+    "Superfast!",
+    "The Fate of the Furious",
+    "Fast & Furious Presents: Hobbs & Shaw"
+  ]
+}
+2026-06-26 15:33:02 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 1674,
+  "movies_count": 3
+}
+2026-06-26 15:35:13 - movieverse - INFO - Processing message: fasst and furious... | Data: {
+  "conversation_id": "7c07dd81-fe9a-40ce-b6fc-78dc3e768e46"
+}
+2026-06-26 15:35:13 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "fast and furious 8"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your query, it seems you're looking for information about *Fast & Furious 8*. From the retrieved results, the movie that matches your search is:\n\n### **The Fate of the Furious (2017)**  \n**Rating:** 6.8/10 (based on 10,838 votes)  \n**Overview:** When a mysterious woman seduces Dom into the world of crime and a betrayal of those closest to him, the crew faces trials that will test them as never before.  \n\nThis is the eighth installment in the *Fast & Furious* franchise, known for its high-octane action, thrilling car chases, and family-centric themes. If you're a fan of the series, this one continues the tradition with new twists and intense action sequences.\n\n---\n\n### **Recommendations**  \nIf you enjoyed *The Fate of the Furious*, here are some similar movies you might like:  \n\n1. **Fast & Furious Presents: Hobbs & Shaw (2019)**  \n   - **Rating:** 6.8/10  \n   - **Why Watch?** This spin-off focuses on the dynamic duo of Hobbs and Shaw, offering more action, humor, and a fresh take on the franchise.  \n\n2. **Mad Max: Fury Road (2015)**  \n   - **Rating:** 8.1/10  \n   - **Why Watch?** If you love high-speed chases and intense action, this post-apocalyptic masterpiece is a must-watch.  \n\n3. **Baby Driver (2017)**  \n   - **Rating:** 7.6/10  \n   - **Why Watch?** A stylish heist film with a killer soundtrack and adrenaline-pumping car sequences.  \n\n---\n\n### **Notes on Retrieved Results**  \nThe tool also returned *Superfast!* (2015), which is a parody of the *Fast & Furious* franchise. While it\u2019s not part of the main series, it might be a fun watch if you\u2019re in the mood for some laughs.  \n\nLet me know if you'd like more details or recommendations!"
+      }
+    ],
+    "conversation_id": "7c07dd81-fe9a-40ce-b6fc-78dc3e768e46",
+    "current_query": "fasst and furious",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:35:13 - movieverse - INFO - Running agent graph
+2026-06-26 15:35:13 - movieverse - INFO - Analyzing intent for query: fasst and furious... | Data: {
+  "conversation_id": "7c07dd81-fe9a-40ce-b6fc-78dc3e768e46"
+}
+2026-06-26 15:35:13 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fasst and furious",
+  "contains_watch_order": false
+}
+2026-06-26 15:35:13 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 15:35:13 - movieverse - DEBUG - Extracting movie name from: fasst and furious
+2026-06-26 15:35:13 - movieverse - DEBUG - Extracted movie name: Fasst And Furious
+2026-06-26 15:35:13 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fasst And Furious"
+  }
+}
+2026-06-26 15:35:13 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:35:13 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fasst And Furious"
+  }
+}
+2026-06-26 15:35:13 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:35:13 - movieverse - DEBUG - Calling search_movie with: Fasst And Furious
+2026-06-26 15:35:14 - movieverse - INFO - Tool search_movie returned 0 items
+2026-06-26 15:35:14 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:35:14 - movieverse - INFO - Generating response for conversation: 7c07dd81-fe9a-40ce-b6fc-78dc3e768e46
+2026-06-26 15:35:14 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:35:14 - movieverse - ERROR - Error generating response: Client error '400 Bad Request' for url 'https://api.cohere.ai/v1/chat'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400 | Data: {
+  "error": "Client error '400 Bad Request' for url 'https://api.cohere.ai/v1/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+}
+2026-06-26 15:35:14 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:35:14 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:35:14 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:35:14 - movieverse - INFO - Found 0 movies from search_movie
+2026-06-26 15:35:14 - movieverse - INFO - Extracted 0 unique movies after deduplication
+2026-06-26 15:35:14 - movieverse - INFO - Extracted 0 movies from tool results | Data: {
+  "movie_titles": []
+}
+2026-06-26 15:35:14 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 183,
+  "movies_count": 0
+}
+2026-06-26 15:35:28 - movieverse - INFO - Processing message: fast and furious 8... | Data: {
+  "conversation_id": "e3ea48c0-d439-4e1c-a1fe-1475ced4d7dd"
+}
+2026-06-26 15:35:28 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "e3ea48c0-d439-4e1c-a1fe-1475ced4d7dd",
+    "current_query": "fast and furious 8",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:35:28 - movieverse - INFO - Running agent graph
+2026-06-26 15:35:28 - movieverse - INFO - Analyzing intent for query: fast and furious 8... | Data: {
+  "conversation_id": "e3ea48c0-d439-4e1c-a1fe-1475ced4d7dd"
+}
+2026-06-26 15:35:28 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious 8",
+  "contains_watch_order": false
+}
+2026-06-26 15:35:28 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 15:35:28 - movieverse - DEBUG - Extracting movie name from: fast and furious 8
+2026-06-26 15:35:28 - movieverse - DEBUG - Extracted movie name: Fast And Furious 8
+2026-06-26 15:35:28 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious 8"
+  }
+}
+2026-06-26 15:35:28 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:35:28 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious 8"
+  }
+}
+2026-06-26 15:35:28 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:35:28 - movieverse - DEBUG - Calling search_movie with: Fast And Furious 8
+2026-06-26 15:35:28 - movieverse - INFO - Tool search_movie returned 3 items
+2026-06-26 15:35:28 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:35:28 - movieverse - INFO - Generating response for conversation: e3ea48c0-d439-4e1c-a1fe-1475ced4d7dd
+2026-06-26 15:35:28 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:35:40 - movieverse - INFO - Generated response of length: 2128
+2026-06-26 15:35:40 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:35:40 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:35:40 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:35:40 - movieverse - INFO - Found 3 movies from search_movie
+2026-06-26 15:35:40 - movieverse - INFO - Extracted 3 unique movies after deduplication
+2026-06-26 15:35:40 - movieverse - INFO - Extracted 3 movies from tool results | Data: {
+  "movie_titles": [
+    "Superfast!",
+    "The Fate of the Furious",
+    "Fast & Furious Presents: Hobbs & Shaw"
+  ]
+}
+2026-06-26 15:35:40 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 2128,
+  "movies_count": 3
+}
+2026-06-26 15:35:56 - movieverse - INFO - Processing message: fast and furious 7... | Data: {
+  "conversation_id": "b5948658-2351-43a0-b852-c26239be1d21"
+}
+2026-06-26 15:35:56 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "b5948658-2351-43a0-b852-c26239be1d21",
+    "current_query": "fast and furious 7",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:35:56 - movieverse - INFO - Running agent graph
+2026-06-26 15:35:56 - movieverse - INFO - Analyzing intent for query: fast and furious 7... | Data: {
+  "conversation_id": "b5948658-2351-43a0-b852-c26239be1d21"
+}
+2026-06-26 15:35:56 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious 7",
+  "contains_watch_order": false
+}
+2026-06-26 15:35:56 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 15:35:56 - movieverse - DEBUG - Extracting movie name from: fast and furious 7
+2026-06-26 15:35:56 - movieverse - DEBUG - Extracted movie name: Fast And Furious 7
+2026-06-26 15:35:56 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious 7"
+  }
+}
+2026-06-26 15:35:56 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:35:56 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious 7"
+  }
+}
+2026-06-26 15:35:56 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:35:56 - movieverse - DEBUG - Calling search_movie with: Fast And Furious 7
+2026-06-26 15:35:57 - movieverse - INFO - Tool search_movie returned 1 items
+2026-06-26 15:35:57 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:35:57 - movieverse - INFO - Generating response for conversation: b5948658-2351-43a0-b852-c26239be1d21
+2026-06-26 15:35:57 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:36:05 - movieverse - INFO - Generated response of length: 1852
+2026-06-26 15:36:05 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:36:05 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:36:05 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:36:05 - movieverse - INFO - Found 1 movies from search_movie
+2026-06-26 15:36:05 - movieverse - INFO - Extracted 1 unique movies after deduplication
+2026-06-26 15:36:05 - movieverse - INFO - Extracted 1 movies from tool results | Data: {
+  "movie_titles": [
+    "Furious 7"
+  ]
+}
+2026-06-26 15:36:05 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 1852,
+  "movies_count": 1
+}
+2026-06-26 15:36:45 - movieverse - INFO - Processing message: fast and furious 8... | Data: {
+  "conversation_id": "0547a870-f920-4bd9-ad01-4cb96f6307fb"
+}
+2026-06-26 15:36:45 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "0547a870-f920-4bd9-ad01-4cb96f6307fb",
+    "current_query": "fast and furious 8",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:36:45 - movieverse - INFO - Running agent graph
+2026-06-26 15:36:45 - movieverse - INFO - Analyzing intent for query: fast and furious 8... | Data: {
+  "conversation_id": "0547a870-f920-4bd9-ad01-4cb96f6307fb"
+}
+2026-06-26 15:36:45 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious 8",
+  "contains_watch_order": false
+}
+2026-06-26 15:36:45 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 15:36:45 - movieverse - DEBUG - Extracting movie name from: fast and furious 8
+2026-06-26 15:36:45 - movieverse - DEBUG - Extracted movie name: Fast And Furious 8
+2026-06-26 15:36:45 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious 8"
+  }
+}
+2026-06-26 15:36:45 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:36:45 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious 8"
+  }
+}
+2026-06-26 15:36:45 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:36:45 - movieverse - DEBUG - Calling search_movie with: Fast And Furious 8
+2026-06-26 15:36:46 - movieverse - INFO - Tool search_movie returned 3 items
+2026-06-26 15:36:46 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:36:46 - movieverse - INFO - Generating response for conversation: 0547a870-f920-4bd9-ad01-4cb96f6307fb
+2026-06-26 15:36:46 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:37:01 - movieverse - INFO - Generated response of length: 2218
+2026-06-26 15:37:01 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:37:01 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:37:01 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:37:01 - movieverse - INFO - Found 3 movies from search_movie
+2026-06-26 15:37:01 - movieverse - INFO - Extracted 3 unique movies after deduplication
+2026-06-26 15:37:01 - movieverse - INFO - Extracted 3 movies from tool results | Data: {
+  "movie_titles": [
+    "Superfast!",
+    "The Fate of the Furious",
+    "Fast & Furious Presents: Hobbs & Shaw"
+  ]
+}
+2026-06-26 15:37:01 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 2218,
+  "movies_count": 3
+}
+2026-06-26 15:41:44 - movieverse - INFO - Processing message: fast and furious 8... | Data: {
+  "conversation_id": "3e85882c-d3e9-4e5b-97ac-73db742c3e4e"
+}
+2026-06-26 15:41:44 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "3e85882c-d3e9-4e5b-97ac-73db742c3e4e",
+    "current_query": "fast and furious 8",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:41:44 - movieverse - INFO - Running agent graph
+2026-06-26 15:41:44 - movieverse - INFO - Analyzing intent for query: fast and furious 8... | Data: {
+  "conversation_id": "3e85882c-d3e9-4e5b-97ac-73db742c3e4e"
+}
+2026-06-26 15:41:44 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious 8",
+  "contains_watch_order": false
+}
+2026-06-26 15:41:44 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 15:41:44 - movieverse - DEBUG - Extracting movie name from: fast and furious 8
+2026-06-26 15:41:44 - movieverse - DEBUG - Extracted movie name: Fast And Furious 8
+2026-06-26 15:41:44 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious 8"
+  }
+}
+2026-06-26 15:41:44 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:41:44 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious 8"
+  }
+}
+2026-06-26 15:41:44 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:41:44 - movieverse - DEBUG - Calling search_movie with: Fast And Furious 8
+2026-06-26 15:41:45 - movieverse - INFO - Tool search_movie returned 3 items
+2026-06-26 15:41:45 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:41:45 - movieverse - INFO - Generating response for conversation: 3e85882c-d3e9-4e5b-97ac-73db742c3e4e
+2026-06-26 15:41:45 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:41:56 - movieverse - INFO - Generated response of length: 2828
+2026-06-26 15:41:56 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:41:56 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:41:56 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:41:56 - movieverse - INFO - Found 3 movies from search_movie
+2026-06-26 15:41:56 - movieverse - INFO - Extracted 3 unique movies after deduplication
+2026-06-26 15:41:56 - movieverse - INFO - Extracted 3 movies from tool results | Data: {
+  "movie_titles": [
+    "Superfast!",
+    "The Fate of the Furious",
+    "Fast & Furious Presents: Hobbs & Shaw"
+  ]
+}
+2026-06-26 15:41:56 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 2828,
+  "movies_count": 3
+}
+2026-06-26 15:44:33 - movieverse - INFO - Processing message: fast and furious 8... | Data: {
+  "conversation_id": "7ea121bc-453e-469d-8c76-f3183ac4e9b6"
+}
+2026-06-26 15:44:33 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "7ea121bc-453e-469d-8c76-f3183ac4e9b6",
+    "current_query": "fast and furious 8",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:44:33 - movieverse - INFO - Running agent graph
+2026-06-26 15:44:33 - movieverse - INFO - Analyzing intent for query: fast and furious 8... | Data: {
+  "conversation_id": "7ea121bc-453e-469d-8c76-f3183ac4e9b6"
+}
+2026-06-26 15:44:33 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious 8",
+  "contains_watch_order": false
+}
+2026-06-26 15:44:33 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 15:44:33 - movieverse - DEBUG - Extracting movie name from: fast and furious 8
+2026-06-26 15:44:33 - movieverse - DEBUG - Extracted movie name: Fast And Furious 8
+2026-06-26 15:44:33 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious 8"
+  }
+}
+2026-06-26 15:44:33 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:44:33 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious 8"
+  }
+}
+2026-06-26 15:44:33 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:44:33 - movieverse - DEBUG - Calling search_movie with: Fast And Furious 8
+2026-06-26 15:44:34 - movieverse - INFO - Tool search_movie returned 3 items
+2026-06-26 15:44:34 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:44:34 - movieverse - INFO - Generating response for conversation: 7ea121bc-453e-469d-8c76-f3183ac4e9b6
+2026-06-26 15:44:34 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:44:46 - movieverse - INFO - Generated response of length: 2161
+2026-06-26 15:44:46 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:44:46 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:44:46 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:44:46 - movieverse - INFO - Found 3 movies from search_movie
+2026-06-26 15:44:46 - movieverse - INFO - Extracted 3 unique movies after deduplication
+2026-06-26 15:44:46 - movieverse - INFO - Extracted 3 movies from tool results | Data: {
+  "movie_titles": [
+    "Superfast!",
+    "The Fate of the Furious",
+    "Fast & Furious Presents: Hobbs & Shaw"
+  ]
+}
+2026-06-26 15:44:46 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 2161,
+  "movies_count": 3
+}
+2026-06-26 15:51:21 - movieverse - INFO - Processing message: fast and furious 6... | Data: {
+  "conversation_id": "05290edf-3a47-4b2d-a6aa-4649060a7696"
+}
+2026-06-26 15:51:21 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "05290edf-3a47-4b2d-a6aa-4649060a7696",
+    "current_query": "fast and furious 6",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:51:21 - movieverse - INFO - Running agent graph
+2026-06-26 15:51:21 - movieverse - INFO - Analyzing intent for query: fast and furious 6... | Data: {
+  "conversation_id": "05290edf-3a47-4b2d-a6aa-4649060a7696"
+}
+2026-06-26 15:51:21 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious 6",
+  "contains_watch_order": false
+}
+2026-06-26 15:51:21 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 15:51:21 - movieverse - DEBUG - Extracting movie name from: fast and furious 6
+2026-06-26 15:51:21 - movieverse - DEBUG - Extracted movie name: Fast And Furious 6
+2026-06-26 15:51:21 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious 6"
+  }
+}
+2026-06-26 15:51:21 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:51:21 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious 6"
+  }
+}
+2026-06-26 15:51:21 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:51:21 - movieverse - DEBUG - Calling search_movie with: Fast And Furious 6
+2026-06-26 15:51:21 - movieverse - INFO - Tool search_movie returned 1 items
+2026-06-26 15:51:21 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:51:21 - movieverse - INFO - Generating response for conversation: 05290edf-3a47-4b2d-a6aa-4649060a7696
+2026-06-26 15:51:21 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:51:30 - movieverse - INFO - Generated response of length: 2113
+2026-06-26 15:51:30 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:51:30 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:51:30 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:51:30 - movieverse - INFO - Found 1 movies from search_movie
+2026-06-26 15:51:30 - movieverse - INFO - Extracted 1 unique movies after deduplication
+2026-06-26 15:51:30 - movieverse - INFO - Extracted 1 movies from tool results | Data: {
+  "movie_titles": [
+    "Fast & Furious 6"
+  ]
+}
+2026-06-26 15:51:30 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 2113,
+  "movies_count": 1
+}
+2026-06-26 15:53:19 - movieverse - INFO - Processing message: fast and furious franchise movies... | Data: {
+  "conversation_id": "05290edf-3a47-4b2d-a6aa-4649060a7696"
+}
+2026-06-26 15:53:19 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "fast and furious 6"
+      },
+      {
+        "role": "assistant",
+        "content": "**Fast & Furious 6 (2013)**  \n*Rating: 6.8/10 (based on 11,207 votes)*  \n\nIf you\u2019re a fan of high-octane action, jaw-dropping stunts, and the unbreakable bond of family, *Fast & Furious 6* is a must-watch! Released in **2013**, this installment in the *Fast & Furious* franchise brings back fan-favorite characters Dominic Toretto (Vin Diesel) and Brian O\u2019Conner (Paul Walker) as they reunite their crew for another adrenaline-fueled mission.  \n\n### **Plot Overview**  \nAfter the events of *Fast Five*, Hobbs (Dwayne Johnson) recruits Dom and Brian to take down a ruthless team of mercenaries led by the formidable Owen Shaw (Luke Evans). The stakes are personal when Dom discovers that his presumed-dead girlfriend, Letty (Michelle Rodriguez), is alive and working with the enemy. The crew must navigate high-speed chases, epic heists, and emotional reunions to save the day\u2014and their family.  \n\n### **Why You\u2019ll Love It**  \n- **Action Sequences**: The film is packed with unforgettable moments, including a jaw-dropping tank chase and a thrilling airplane takedown.  \n- **Emotional Depth**: The return of Letty adds a layer of heart to the high-energy plot.  \n- **Ensemble Cast**: The chemistry between Vin Diesel, Paul Walker, and the rest of the crew is as strong as ever.  \n\n### **Recommendations**  \nIf you enjoyed *Fast & Furious 6*, here are some similar movies you might like:  \n1. **Fast Five (2011)**  \n   - The predecessor to *Fast & Furious 6*, this film sets the stage for the crew\u2019s reunion and features one of the franchise\u2019s most iconic heists.  \n2. **Mad Max: Fury Road (2015)**  \n   - A visually stunning, non-stop action film with intense vehicular combat and a strong narrative.  \n3. **Mission: Impossible \u2013 Fallout (2018)**  \n   - Another high-stakes, action-packed film with incredible stunts and a tight-knit team dynamic.  \n\n### **Fun Fact**  \nThe film\u2019s iconic tank scene was inspired by real-life military tactics and required extensive planning and practical effects to bring to life.  \n\nLet me know if you\u2019d like more details or recommendations\u2014I\u2019m here to fuel your movie marathon! \ud83c\udfac"
+      }
+    ],
+    "conversation_id": "05290edf-3a47-4b2d-a6aa-4649060a7696",
+    "current_query": "fast and furious franchise movies",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:53:19 - movieverse - INFO - Running agent graph
+2026-06-26 15:53:19 - movieverse - INFO - Analyzing intent for query: fast and furious franchise movies... | Data: {
+  "conversation_id": "05290edf-3a47-4b2d-a6aa-4649060a7696"
+}
+2026-06-26 15:53:19 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious franchise movies",
+  "contains_watch_order": false
+}
+2026-06-26 15:53:19 - movieverse - DEBUG - Extracting movie name from: fast and furious franchise movies
+2026-06-26 15:53:19 - movieverse - DEBUG - Extracted movie name: Fast And Furious Franchise S
+2026-06-26 15:53:19 - movieverse - INFO - Extracted movie name: Fast And Furious Franchise S
+2026-06-26 15:53:19 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious Franchise S"
+  }
+}
+2026-06-26 15:53:19 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:53:19 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious Franchise S"
+  }
+}
+2026-06-26 15:53:19 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:53:19 - movieverse - DEBUG - Calling search_movie with: Fast And Furious Franchise S
+2026-06-26 15:53:19 - movieverse - INFO - Tool search_movie returned 0 items
+2026-06-26 15:53:19 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:53:19 - movieverse - INFO - Generating response for conversation: 05290edf-3a47-4b2d-a6aa-4649060a7696
+2026-06-26 15:53:19 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:53:20 - movieverse - ERROR - Error generating response: Client error '400 Bad Request' for url 'https://api.cohere.ai/v1/chat'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400 | Data: {
+  "error": "Client error '400 Bad Request' for url 'https://api.cohere.ai/v1/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+}
+2026-06-26 15:53:20 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:53:20 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:53:20 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:53:20 - movieverse - INFO - Found 0 movies from search_movie
+2026-06-26 15:53:20 - movieverse - INFO - Extracted 0 unique movies after deduplication
+2026-06-26 15:53:20 - movieverse - INFO - Extracted 0 movies from tool results | Data: {
+  "movie_titles": []
+}
+2026-06-26 15:53:20 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 183,
+  "movies_count": 0
+}
+2026-06-26 15:53:32 - movieverse - INFO - Processing message: fast and furious franchise movies... | Data: {
+  "conversation_id": "05290edf-3a47-4b2d-a6aa-4649060a7696"
+}
+2026-06-26 15:53:32 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "fast and furious 6"
+      },
+      {
+        "role": "assistant",
+        "content": "**Fast & Furious 6 (2013)**  \n*Rating: 6.8/10 (based on 11,207 votes)*  \n\nIf you\u2019re a fan of high-octane action, jaw-dropping stunts, and the unbreakable bond of family, *Fast & Furious 6* is a must-watch! Released in **2013**, this installment in the *Fast & Furious* franchise brings back fan-favorite characters Dominic Toretto (Vin Diesel) and Brian O\u2019Conner (Paul Walker) as they reunite their crew for another adrenaline-fueled mission.  \n\n### **Plot Overview**  \nAfter the events of *Fast Five*, Hobbs (Dwayne Johnson) recruits Dom and Brian to take down a ruthless team of mercenaries led by the formidable Owen Shaw (Luke Evans). The stakes are personal when Dom discovers that his presumed-dead girlfriend, Letty (Michelle Rodriguez), is alive and working with the enemy. The crew must navigate high-speed chases, epic heists, and emotional reunions to save the day\u2014and their family.  \n\n### **Why You\u2019ll Love It**  \n- **Action Sequences**: The film is packed with unforgettable moments, including a jaw-dropping tank chase and a thrilling airplane takedown.  \n- **Emotional Depth**: The return of Letty adds a layer of heart to the high-energy plot.  \n- **Ensemble Cast**: The chemistry between Vin Diesel, Paul Walker, and the rest of the crew is as strong as ever.  \n\n### **Recommendations**  \nIf you enjoyed *Fast & Furious 6*, here are some similar movies you might like:  \n1. **Fast Five (2011)**  \n   - The predecessor to *Fast & Furious 6*, this film sets the stage for the crew\u2019s reunion and features one of the franchise\u2019s most iconic heists.  \n2. **Mad Max: Fury Road (2015)**  \n   - A visually stunning, non-stop action film with intense vehicular combat and a strong narrative.  \n3. **Mission: Impossible \u2013 Fallout (2018)**  \n   - Another high-stakes, action-packed film with incredible stunts and a tight-knit team dynamic.  \n\n### **Fun Fact**  \nThe film\u2019s iconic tank scene was inspired by real-life military tactics and required extensive planning and practical effects to bring to life.  \n\nLet me know if you\u2019d like more details or recommendations\u2014I\u2019m here to fuel your movie marathon! \ud83c\udfac"
+      },
+      {
+        "role": "user",
+        "content": "fast and furious franchise movies"
+      },
+      {
+        "role": "assistant",
+        "content": "I encountered an error: Client error '400 Bad Request' for url 'https://api.cohere.ai/v1/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    ],
+    "conversation_id": "05290edf-3a47-4b2d-a6aa-4649060a7696",
+    "current_query": "fast and furious franchise movies",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:53:32 - movieverse - INFO - Running agent graph
+2026-06-26 15:53:32 - movieverse - INFO - Analyzing intent for query: fast and furious franchise movies... | Data: {
+  "conversation_id": "05290edf-3a47-4b2d-a6aa-4649060a7696"
+}
+2026-06-26 15:53:32 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious franchise movies",
+  "contains_watch_order": false
+}
+2026-06-26 15:53:32 - movieverse - DEBUG - Extracting movie name from: fast and furious franchise movies
+2026-06-26 15:53:32 - movieverse - DEBUG - Extracted movie name: Fast And Furious Franchise S
+2026-06-26 15:53:32 - movieverse - INFO - Extracted movie name: Fast And Furious Franchise S
+2026-06-26 15:53:32 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious Franchise S"
+  }
+}
+2026-06-26 15:53:32 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:53:32 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious Franchise S"
+  }
+}
+2026-06-26 15:53:32 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:53:32 - movieverse - DEBUG - Calling search_movie with: Fast And Furious Franchise S
+2026-06-26 15:53:32 - movieverse - INFO - Tool search_movie returned 0 items
+2026-06-26 15:53:32 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:53:32 - movieverse - INFO - Generating response for conversation: 05290edf-3a47-4b2d-a6aa-4649060a7696
+2026-06-26 15:53:32 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:53:32 - movieverse - ERROR - Error generating response: Client error '400 Bad Request' for url 'https://api.cohere.ai/v1/chat'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400 | Data: {
+  "error": "Client error '400 Bad Request' for url 'https://api.cohere.ai/v1/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+}
+2026-06-26 15:53:32 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:53:32 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:53:32 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:53:32 - movieverse - INFO - Found 0 movies from search_movie
+2026-06-26 15:53:32 - movieverse - INFO - Extracted 0 unique movies after deduplication
+2026-06-26 15:53:32 - movieverse - INFO - Extracted 0 movies from tool results | Data: {
+  "movie_titles": []
+}
+2026-06-26 15:53:32 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 183,
+  "movies_count": 0
+}
+2026-06-26 15:53:37 - movieverse - INFO - Processing message: fast and furious franchise movies... | Data: {
+  "conversation_id": "f66c9918-a9da-4d77-b3ae-7f3b4246e8b7"
+}
+2026-06-26 15:53:37 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "f66c9918-a9da-4d77-b3ae-7f3b4246e8b7",
+    "current_query": "fast and furious franchise movies",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:53:37 - movieverse - INFO - Running agent graph
+2026-06-26 15:53:37 - movieverse - INFO - Analyzing intent for query: fast and furious franchise movies... | Data: {
+  "conversation_id": "f66c9918-a9da-4d77-b3ae-7f3b4246e8b7"
+}
+2026-06-26 15:53:37 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious franchise movies",
+  "contains_watch_order": false
+}
+2026-06-26 15:53:37 - movieverse - DEBUG - Extracting movie name from: fast and furious franchise movies
+2026-06-26 15:53:37 - movieverse - DEBUG - Extracted movie name: Fast And Furious Franchise S
+2026-06-26 15:53:37 - movieverse - INFO - Extracted movie name: Fast And Furious Franchise S
+2026-06-26 15:53:37 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious Franchise S"
+  }
+}
+2026-06-26 15:53:37 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:53:37 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious Franchise S"
+  }
+}
+2026-06-26 15:53:37 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:53:37 - movieverse - DEBUG - Calling search_movie with: Fast And Furious Franchise S
+2026-06-26 15:53:38 - movieverse - INFO - Tool search_movie returned 0 items
+2026-06-26 15:53:38 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:53:38 - movieverse - INFO - Generating response for conversation: f66c9918-a9da-4d77-b3ae-7f3b4246e8b7
+2026-06-26 15:53:38 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:53:55 - movieverse - INFO - Generated response of length: 4259
+2026-06-26 15:53:55 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:53:55 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:53:55 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:53:55 - movieverse - INFO - Found 0 movies from search_movie
+2026-06-26 15:53:55 - movieverse - INFO - Extracted 0 unique movies after deduplication
+2026-06-26 15:53:55 - movieverse - INFO - Extracted 0 movies from tool results | Data: {
+  "movie_titles": []
+}
+2026-06-26 15:53:55 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 4259,
+  "movies_count": 0
+}
+2026-06-26 15:54:56 - movieverse - INFO - Processing message: fast and furious franchise movies... | Data: {
+  "conversation_id": "d6842d15-ca5a-45b0-842c-85bf531496ba"
+}
+2026-06-26 15:54:56 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "d6842d15-ca5a-45b0-842c-85bf531496ba",
+    "current_query": "fast and furious franchise movies",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:54:56 - movieverse - INFO - Running agent graph
+2026-06-26 15:54:56 - movieverse - INFO - Analyzing intent for query: fast and furious franchise movies... | Data: {
+  "conversation_id": "d6842d15-ca5a-45b0-842c-85bf531496ba"
+}
+2026-06-26 15:54:56 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "fast and furious franchise movies",
+  "contains_watch_order": false
+}
+2026-06-26 15:54:56 - movieverse - DEBUG - Extracting movie name from: fast and furious franchise movies
+2026-06-26 15:54:56 - movieverse - DEBUG - Extracted movie name: Fast And Furious Franchise S
+2026-06-26 15:54:56 - movieverse - INFO - Extracted movie name: Fast And Furious Franchise S
+2026-06-26 15:54:56 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Fast And Furious Franchise S"
+  }
+}
+2026-06-26 15:54:56 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:54:56 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Fast And Furious Franchise S"
+  }
+}
+2026-06-26 15:54:56 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:54:56 - movieverse - DEBUG - Calling search_movie with: Fast And Furious Franchise S
+2026-06-26 15:54:57 - movieverse - INFO - Tool search_movie returned 0 items
+2026-06-26 15:54:57 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:54:57 - movieverse - INFO - Generating response for conversation: d6842d15-ca5a-45b0-842c-85bf531496ba
+2026-06-26 15:54:57 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:55:18 - movieverse - INFO - Generated response of length: 4415
+2026-06-26 15:55:18 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:55:18 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:55:18 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:55:18 - movieverse - INFO - Found 0 movies from search_movie
+2026-06-26 15:55:18 - movieverse - INFO - Extracted 0 unique movies after deduplication
+2026-06-26 15:55:18 - movieverse - INFO - Extracted 0 movies from tool results | Data: {
+  "movie_titles": []
+}
+2026-06-26 15:55:18 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 4415,
+  "movies_count": 0
+}
+2026-06-26 15:55:35 - movieverse - INFO - Processing message: moana... | Data: {
+  "conversation_id": "d6842d15-ca5a-45b0-842c-85bf531496ba"
+}
+2026-06-26 15:55:35 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "fast and furious franchise movies"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like there was a hiccup with the search tool, and it didn\u2019t return any results for the *Fast & Furious* franchise. No worries\u2014I\u2019ve got you covered! Let\u2019s dive into the high-octane world of this iconic action series. Here\u2019s a comprehensive breakdown of the *Fast & Furious* movies, along with recommendations and fun facts.\n\n---\n\n### **The Fast & Furious Franchise: A High-Speed Journey**\nThe *Fast & Furious* series is a global phenomenon, blending adrenaline-pumping car chases, family bonds, and larger-than-life action. Here\u2019s the full list of movies in chronological order:\n\n#### **Main Series**\n1. **The Fast and the Furious** (2001)  \n   - **Rating:** 6.8/10 (IMDb)  \n   - **Plot:** Street racer Dominic Toretto (Vin Diesel) and undercover cop Brian O\u2019Conner (Paul Walker) clash and eventually bond over their love for cars and justice.  \n   - **Fun Fact:** This movie launched one of the highest-grossing franchises in history.\n\n2. **2 Fast 2 Furious** (2003)  \n   - **Rating:** 5.9/10 (IMDb)  \n   - **Plot:** Brian teams up with ex-con Roman Pearce (Tyrese Gibson) to take down a drug lord in Miami.  \n   - **Fun Fact:** This is the only film in the main series without Vin Diesel.\n\n3. **The Fast and the Furious: Tokyo Drift** (2006)  \n   - **Rating:** 6.0/10 (IMDb)  \n   - **Plot:** Teenager Sean Boswell (Lucas Black) learns drifting in Tokyo and crosses paths with Han (Sung Kang).  \n   - **Fun Fact:** This film is set after the events of later movies, creating a timeline twist.\n\n4. **Fast & Furious** (2009)  \n   - **Rating:** 6.6/10 (IMDb)  \n   - **Plot:** Dom and Brian reunite to avenge Letty\u2019s (Michelle Rodriguez) apparent death and take down a drug cartel.  \n   - **Fun Fact:** This film reignited the franchise after a brief hiatus.\n\n5. **Fast Five** (2011)  \n   - **Rating:** 7.3/10 (IMDb)  \n   - **Plot:** The crew pulls off a massive heist in Rio de Janeiro, introducing fan-favorite character Hobbs (Dwayne Johnson).  \n   - **Fun Fact:** Widely considered the best in the series for its perfect blend of action and humor.\n\n6. **Fast & Furious 6** (2013)  \n   - **Rating:** 7.1/10 (IMDb)  \n   - **Plot:** The team takes on a mercenary group led by Owen Shaw (Luke Evans) and rescues Letty.  \n   - **Fun Fact:** Features a jaw-dropping tank chase sequence.\n\n7. **Furious 7** (2015)  \n   - **Rating:** 7.1/10 (IMDb)  \n   - **Plot:** Deckard Shaw (Jason Statham) seeks revenge, and the crew faces their most emotional challenge yet.  \n   - **Fun Fact:** Paul Walker\u2019s final film, with his brothers and CGI helping complete his scenes after his tragic death.\n\n8. **The Fate of the Furious** (2017)  \n   - **Rating:** 6.6/10 (IMDb)  \n   - **Plot:** Dom is forced to betray his family by cyberterrorist Cipher (Charlize Theron).  \n   - **Fun Fact:** Introduces a new villain and expands the franchise\u2019s global scope.\n\n9. **Fast & Furious Presents: Hobbs & Shaw** (2019)  \n   - **Rating:** 6.5/10 (IMDb)  \n   - **Plot:** A spin-off focusing on Hobbs and Shaw teaming up against a genetically enhanced villain (Idris Elba).  \n   - **Fun Fact:** The first spin-off in the franchise.\n\n10. **F9** (2021)  \n    - **Rating:** 5.3/10 (IMDb)  \n    - **Plot:** Dom faces his estranged brother Jakob (John Cena) and uncovers a global conspiracy.  \n    - **Fun Fact:** Features a car in space\u2014because why not?\n\n11. **Fast X** (2023)  \n    - **Rating:** 5.9/10 (IMDb)  \n    - **Plot:** The crew battles Dante Reyes (Jason Momoa), son of a past enemy, in a high-stakes global showdown.  \n    - **Fun Fact:** Sets up a two-part finale for the franchise.\n\n---\n\n### **Recommendations**\nIf you\u2019re a fan of the *Fast & Furious* blend of action, family, and cars, check out these similar movies:\n- **Mad Max: Fury Road** (2015) \u2013 Nonstop action and stunning visuals.  \n- **Baby Driver** (2017) \u2013 Stylish heist film with a killer soundtrack.  \n- **Mission: Impossible** series \u2013 High-stakes espionage and jaw-dropping stunts.  \n- **Death Race** (2008) \u2013 A gritty, car-centric action flick.\n\n---\n\n### **Why the Franchise Works**\nThe *Fast & Furious* movies are more than just car chases\u2014they\u2019re about family, loyalty, and pushing the limits of what\u2019s possible. Whether you\u2019re here for the action, the characters, or the sheer absurdity (looking at you, F9), there\u2019s something for everyone.\n\nLet me know if you\u2019d like more details about a specific film or recommendations for other action-packed franchises! \ud83d\ude97\ud83d\udca8"
+      }
+    ],
+    "conversation_id": "d6842d15-ca5a-45b0-842c-85bf531496ba",
+    "current_query": "moana",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 15:55:35 - movieverse - INFO - Running agent graph
+2026-06-26 15:55:35 - movieverse - INFO - Analyzing intent for query: moana... | Data: {
+  "conversation_id": "d6842d15-ca5a-45b0-842c-85bf531496ba"
+}
+2026-06-26 15:55:35 - movieverse - DEBUG - Query analysis | Data: {
+  "query_lower": "moana",
+  "contains_watch_order": false
+}
+2026-06-26 15:55:35 - movieverse - DEBUG - No specific intent detected, defaulting to search_movie
+2026-06-26 15:55:35 - movieverse - DEBUG - Extracting movie name from: moana
+2026-06-26 15:55:35 - movieverse - DEBUG - Extracted movie name: Moana
+2026-06-26 15:55:35 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Moana"
+  }
+}
+2026-06-26 15:55:35 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:55:35 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ],
+  "extracted_params": {
+    "movie_title": "Moana"
+  }
+}
+2026-06-26 15:55:35 - movieverse - INFO - Executing tool: search_movie
+2026-06-26 15:55:35 - movieverse - DEBUG - Calling search_movie with: Moana
+2026-06-26 15:55:36 - movieverse - INFO - Tool search_movie returned 10 items
+2026-06-26 15:55:36 - movieverse - INFO - Completed tool execution | Data: {
+  "results_count": 1
+}
+2026-06-26 15:55:36 - movieverse - INFO - Generating response for conversation: d6842d15-ca5a-45b0-842c-85bf531496ba
+2026-06-26 15:55:36 - movieverse - DEBUG - Calling Cohere for response generation
+2026-06-26 15:55:36 - movieverse - ERROR - Error generating response: Client error '400 Bad Request' for url 'https://api.cohere.ai/v1/chat'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400 | Data: {
+  "error": "Client error '400 Bad Request' for url 'https://api.cohere.ai/v1/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+}
+2026-06-26 15:55:36 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 15:55:36 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 15:55:36 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 15:55:36 - movieverse - INFO - Found 10 movies from search_movie
+2026-06-26 15:55:36 - movieverse - INFO - Extracted 10 unique movies after deduplication
+2026-06-26 15:55:36 - movieverse - INFO - Extracted 10 movies from tool results | Data: {
+  "movie_titles": [
+    "Moana",
+    "Moana 2",
+    "Moana",
+    "Moana",
+    "Moana"
+  ]
+}
+2026-06-26 15:55:36 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 183,
+  "movies_count": 10
+}
+2026-06-26 16:01:31 - movieverse - INFO - Initializing AgentGraph
+2026-06-26 16:01:31 - movieverse - INFO - Initializing AgentNodes
+2026-06-26 16:01:32 - movieverse - INFO - AgentNodes initialized with tools | Data: {
+  "tools": [
+    "search_movie",
+    "get_movie_details",
+    "search_collection",
+    "get_recommendations",
+    "get_actor_movies",
+    "get_watch_order"
+  ]
+}
+2026-06-26 16:01:32 - movieverse - DEBUG - Building agent workflow graph
+2026-06-26 16:01:32 - movieverse - DEBUG - Agent workflow graph built successfully
+2026-06-26 16:01:32 - movieverse - INFO - AgentGraph initialized successfully
+2026-06-26 16:01:39 - movieverse - INFO - Processing message: moana... | Data: {
+  "conversation_id": "1b446d92-dc71-4c07-a6c4-a8307c6c8fcd"
+}
+2026-06-26 16:01:39 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [],
+    "conversation_id": "1b446d92-dc71-4c07-a6c4-a8307c6c8fcd",
+    "current_query": "moana",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 16:01:39 - movieverse - INFO - Running agent graph
+2026-06-26 16:01:39 - movieverse - INFO - Analyzing intent for query: moana... | Data: {
+  "conversation_id": "1b446d92-dc71-4c07-a6c4-a8307c6c8fcd"
+}
+2026-06-26 16:01:39 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Moana"
+  }
+}
+2026-06-26 16:01:39 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 16:01:39 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 16:01:39 - movieverse - INFO - Generating response for conversation: 1b446d92-dc71-4c07-a6c4-a8307c6c8fcd
+2026-06-26 16:01:39 - movieverse - DEBUG - Sending 0 history messages to Cohere
+2026-06-26 16:01:55 - movieverse - INFO - Generated response of length: 3450
+2026-06-26 16:01:55 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 16:01:55 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 16:01:55 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 16:01:55 - movieverse - INFO - Found 10 movies from search_movie
+2026-06-26 16:01:55 - movieverse - INFO - Extracted 10 unique movies after deduplication
+2026-06-26 16:01:55 - movieverse - INFO - Extracted 10 movies from tool results | Data: {
+  "movie_titles": [
+    "Moana",
+    "Moana 2",
+    "Moana",
+    "Moana",
+    "Moana"
+  ]
+}
+2026-06-26 16:01:55 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 3450,
+  "movies_count": 10
+}
+2026-06-26 16:03:05 - movieverse - INFO - Processing message: toy story... | Data: {
+  "conversation_id": "1b446d92-dc71-4c07-a6c4-a8307c6c8fcd"
+}
+2026-06-26 16:03:05 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "moana"
+      },
+      {
+        "role": "assistant",
+        "content": "Here\u2019s a comprehensive response based on the retrieved information about movies related to \"Moana\":\n\n### **Moana Movies Overview**\n\nThe search results show multiple movies with the title \"Moana\" or related themes. Below is a breakdown of the relevant films, their details, and recommendations for watching them in order or exploring similar titles.\n\n---\n\n#### **1. Disney's Moana (2016)**  \n- **Release Year:** 2016  \n- **Rating:** 7.6/10 (13,765 votes)  \n- **Overview:** In Ancient Polynesia, Moana, a chieftain's daughter, sets sail on a daring mission to save her island. She teams up with the demigod Maui to return a stolen relic and restore harmony to her people.  \n- **Genres:** Adventure, Comedy, Animation, Family, Fantasy  \n\n**Why Watch?**  \nThis is the most popular and widely recognized \"Moana\" film, beloved for its music, animation, and inspiring story. It\u2019s a great starting point if you\u2019re looking for a family-friendly adventure.\n\n---\n\n#### **2. Moana 2 (2024)**  \n- **Release Year:** 2024  \n- **Rating:** 7.0/10 (3,104 votes)  \n- **Overview:** Moana and Maui embark on a new journey to explore dangerous, long-lost waters of Oceania, guided by her ancestors.  \n- **Genres:** Adventure, Animation, Comedy, Family, Fantasy  \n\n**Why Watch?**  \nAs a direct sequel to the 2016 film, *Moana 2* continues the story with new adventures and challenges. Watch this after the original for a complete experience.\n\n---\n\n#### **3. Moana (2009)**  \n- **Release Year:** 2009  \n- **Rating:** 6.4/10 (25 votes)  \n- **Overview:** A biographical drama about Moana Pozzi, an iconic Italian pornographic actress. The film sparked controversy due to unauthorized use of a character.  \n- **Genres:** Drama, Biography  \n\n**Why Watch?**  \nThis film is a stark departure from the Disney version, focusing on a real-life figure. It\u2019s recommended for viewers interested in biographical dramas or Italian cinema.\n\n---\n\n#### **4. Moana (1926)**  \n- **Release Year:** 1926  \n- **Rating:** 6.7/10 (36 votes)  \n- **Overview:** A documentary-style film by Robert J. Flaherty, portraying Samoan village life with a focus on daily rituals and traditions.  \n- **Genres:** Documentary  \n\n**Why Watch?**  \nThis is a classic ethnographic film, ideal for fans of early cinema or cultural documentaries.\n\n---\n\n#### **5. Moana 3 (TBA)**  \n- **Release Year:** TBA  \n- **Rating:** N/A  \n- **Overview:** Details are scarce, but it\u2019s expected to continue the Disney franchise.  \n\n**Why Watch?**  \nKeep an eye out for updates if you\u2019re a fan of the Moana series.\n\n---\n\n### **Recommended Watch Order for Disney's Moana Series**  \n1. **Moana (2016)** \u2013 Start with the original to understand the characters and world.  \n2. **Moana 2 (2024)** \u2013 Continue the adventure with the sequel.  \n3. **Moana 3 (TBA)** \u2013 Watch this once it\u2019s released to complete the trilogy.  \n\n---\n\n### **Similar Movies**  \nIf you enjoyed Disney's *Moana*, you might also like:  \n- **Frozen (2013)** \u2013 Another Disney animated musical with strong female leads.  \n- **Lilo & Stitch (2002)** \u2013 Set in Hawaii, this film shares themes of family and adventure.  \n- **The Lion King (2019)** \u2013 A visually stunning remake of a classic Disney story.  \n\n---\n\n### **Notes on Errors**  \nThe tool results include a future release (*Moana* 2026) with no details, which seems like an error. I\u2019ve excluded it from the recommendations.  \n\nLet me know if you'd like more details about any of these films or additional suggestions!"
+      }
+    ],
+    "conversation_id": "1b446d92-dc71-4c07-a6c4-a8307c6c8fcd",
+    "current_query": "toy story",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 16:03:05 - movieverse - INFO - Running agent graph
+2026-06-26 16:03:05 - movieverse - INFO - Analyzing intent for query: toy story... | Data: {
+  "conversation_id": "1b446d92-dc71-4c07-a6c4-a8307c6c8fcd"
+}
+2026-06-26 16:03:05 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Toy Story"
+  }
+}
+2026-06-26 16:03:05 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 16:03:05 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 16:03:06 - movieverse - INFO - Generating response for conversation: 1b446d92-dc71-4c07-a6c4-a8307c6c8fcd
+2026-06-26 16:03:06 - movieverse - DEBUG - Sending 2 history messages to Cohere
+2026-06-26 16:03:23 - movieverse - INFO - Generated response of length: 3992
+2026-06-26 16:03:23 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 16:03:23 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 16:03:23 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 16:03:23 - movieverse - INFO - Found 10 movies from search_movie
+2026-06-26 16:03:23 - movieverse - INFO - Extracted 10 unique movies after deduplication
+2026-06-26 16:03:23 - movieverse - INFO - Extracted 10 movies from tool results | Data: {
+  "movie_titles": [
+    "Toy Story",
+    "Toy Story 5",
+    "Toy Story 4",
+    "Toy Story 2",
+    "Toy Story 3"
+  ]
+}
+2026-06-26 16:03:23 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 3992,
+  "movies_count": 10
+}
+2026-06-26 16:03:53 - movieverse - INFO - Processing message: Titanic... | Data: {
+  "conversation_id": "1b446d92-dc71-4c07-a6c4-a8307c6c8fcd"
+}
+2026-06-26 16:03:53 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "moana"
+      },
+      {
+        "role": "assistant",
+        "content": "Here\u2019s a comprehensive response based on the retrieved information about movies related to \"Moana\":\n\n### **Moana Movies Overview**\n\nThe search results show multiple movies with the title \"Moana\" or related themes. Below is a breakdown of the relevant films, their details, and recommendations for watching them in order or exploring similar titles.\n\n---\n\n#### **1. Disney's Moana (2016)**  \n- **Release Year:** 2016  \n- **Rating:** 7.6/10 (13,765 votes)  \n- **Overview:** In Ancient Polynesia, Moana, a chieftain's daughter, sets sail on a daring mission to save her island. She teams up with the demigod Maui to return a stolen relic and restore harmony to her people.  \n- **Genres:** Adventure, Comedy, Animation, Family, Fantasy  \n\n**Why Watch?**  \nThis is the most popular and widely recognized \"Moana\" film, beloved for its music, animation, and inspiring story. It\u2019s a great starting point if you\u2019re looking for a family-friendly adventure.\n\n---\n\n#### **2. Moana 2 (2024)**  \n- **Release Year:** 2024  \n- **Rating:** 7.0/10 (3,104 votes)  \n- **Overview:** Moana and Maui embark on a new journey to explore dangerous, long-lost waters of Oceania, guided by her ancestors.  \n- **Genres:** Adventure, Animation, Comedy, Family, Fantasy  \n\n**Why Watch?**  \nAs a direct sequel to the 2016 film, *Moana 2* continues the story with new adventures and challenges. Watch this after the original for a complete experience.\n\n---\n\n#### **3. Moana (2009)**  \n- **Release Year:** 2009  \n- **Rating:** 6.4/10 (25 votes)  \n- **Overview:** A biographical drama about Moana Pozzi, an iconic Italian pornographic actress. The film sparked controversy due to unauthorized use of a character.  \n- **Genres:** Drama, Biography  \n\n**Why Watch?**  \nThis film is a stark departure from the Disney version, focusing on a real-life figure. It\u2019s recommended for viewers interested in biographical dramas or Italian cinema.\n\n---\n\n#### **4. Moana (1926)**  \n- **Release Year:** 1926  \n- **Rating:** 6.7/10 (36 votes)  \n- **Overview:** A documentary-style film by Robert J. Flaherty, portraying Samoan village life with a focus on daily rituals and traditions.  \n- **Genres:** Documentary  \n\n**Why Watch?**  \nThis is a classic ethnographic film, ideal for fans of early cinema or cultural documentaries.\n\n---\n\n#### **5. Moana 3 (TBA)**  \n- **Release Year:** TBA  \n- **Rating:** N/A  \n- **Overview:** Details are scarce, but it\u2019s expected to continue the Disney franchise.  \n\n**Why Watch?**  \nKeep an eye out for updates if you\u2019re a fan of the Moana series.\n\n---\n\n### **Recommended Watch Order for Disney's Moana Series**  \n1. **Moana (2016)** \u2013 Start with the original to understand the characters and world.  \n2. **Moana 2 (2024)** \u2013 Continue the adventure with the sequel.  \n3. **Moana 3 (TBA)** \u2013 Watch this once it\u2019s released to complete the trilogy.  \n\n---\n\n### **Similar Movies**  \nIf you enjoyed Disney's *Moana*, you might also like:  \n- **Frozen (2013)** \u2013 Another Disney animated musical with strong female leads.  \n- **Lilo & Stitch (2002)** \u2013 Set in Hawaii, this film shares themes of family and adventure.  \n- **The Lion King (2019)** \u2013 A visually stunning remake of a classic Disney story.  \n\n---\n\n### **Notes on Errors**  \nThe tool results include a future release (*Moana* 2026) with no details, which seems like an error. I\u2019ve excluded it from the recommendations.  \n\nLet me know if you'd like more details about any of these films or additional suggestions!"
+      },
+      {
+        "role": "user",
+        "content": "toy story"
+      },
+      {
+        "role": "assistant",
+        "content": "### **Toy Story Movie Collection Guide**\n\nWelcome to the world of *Toy Story*! Whether you're a long-time fan or just discovering this beloved franchise, I\u2019ve got you covered with the best watch order, movie details, and recommendations. Let\u2019s dive in!\n\n---\n\n### **Main Toy Story Films**\nHere\u2019s the core series in chronological order:\n\n1. **Toy Story (1995)**  \n   - **Rating:** 7.978/10 (20,020 votes)  \n   - **Overview:** Woody, Andy's favorite toy, feels threatened when Buzz Lightyear arrives. Their rivalry turns into friendship as they navigate challenges together.  \n   - **Why Watch First:** This is where it all begins\u2014the origin of Woody, Buzz, and their world.  \n\n2. **Toy Story 2 (1999)**  \n   - **Rating:** 7.6/10 (14,993 votes)  \n   - **Overview:** When Woody is kidnapped by a toy collector, Buzz and the gang embark on a rescue mission. Woody also confronts his past and future.  \n   - **Why Watch Next:** It expands the story and introduces new beloved characters like Jessie.  \n\n3. **Toy Story 3 (2010)**  \n   - **Rating:** 7.809/10 (15,828 votes)  \n   - **Overview:** As Andy grows up and prepares for college, the toys are accidentally donated to a daycare. They must decide their fate and stick together.  \n   - **Why Watch Next:** This emotional installment ties up many character arcs.  \n\n4. **Toy Story 4 (2019)**  \n   - **Rating:** 7.5/10 (10,624 votes)  \n   - **Overview:** Woody meets Forky, a new toy created by Bonnie, and embarks on a road trip that challenges his purpose as a toy.  \n   - **Why Watch Next:** It adds depth to Woody\u2019s character and introduces new favorites like Forky and Duke Caboom.  \n\n---\n\n### **Upcoming Films**\nExciting news for fans\u2014the franchise is expanding! Here\u2019s what\u2019s coming:\n\n5. **Toy Story 5 (2026)**  \n   - **Rating:** 7.4/10 (294 votes)  \n   - **Overview:** Bonnie\u2019s new Lilypad tablet becomes a threat to playtime, forcing the toys to adapt and fight for their relevance.  \n   - **Why Watch Next:** It continues the story of Bonnie and the gang in a modern setting.  \n\n6. **Toy Story 6 (TBA)**  \n   - **Overview:** Rumored sixth installment with no details yet.  \n   - **Why Watch Next:** Stay tuned for updates if you\u2019re a die-hard fan!  \n\n---\n\n### **Specials and Shorts**\nFor extra fun, check out these additions to the Toy Story universe:\n\n- **Toy Story That Time Forgot (2014)**  \n  - **Rating:** 7.062/10 (1,090 votes)  \n  - **Overview:** During a post-Christmas playdate, the toys encounter delusional action figures and rely on Trixie to save the day.  \n  - **Why Watch:** A fun holiday-themed adventure that fits between *Toy Story 3* and *4*.  \n\n- **Toy Story 5: Zhuazhou (2026)**  \n  - **Rating:** 7.0/10 (1 vote)  \n  - **Overview:** A promotional short film showcasing the bond between a boy and his Buzz Lightyear over decades.  \n  - **Why Watch:** A heartwarming addition for fans of Buzz\u2019s character.  \n\n- **Making 'Toy Story' (1995)**  \n  - **Rating:** 6.318/10 (11 votes)  \n  - **Overview:** A documentary on the making of the groundbreaking first film.  \n  - **Why Watch:** Perfect for fans interested in the behind-the-scenes magic of Pixar.  \n\n---\n\n### **Recommended Watch Order**  \n1. **Toy Story (1995)**  \n2. **Toy Story 2 (1999)**  \n3. **Toy Story 3 (2010)**  \n4. **Toy Story That Time Forgot (2014)**  \n5. **Toy Story 4 (2019)**  \n6. **Toy Story 5 (2026)** (once released)  \n\n---\n\n### **Similar Movies**  \nIf you love *Toy Story*, you might enjoy:  \n- **Cars (2006)** \u2013 Another Pixar classic with anthropomorphic characters.  \n- **Inside Out (2015)** \u2013 A heartfelt exploration of emotions and growing up.  \n- **The Incredibles (2004)** \u2013 A family of superheroes with a focus on teamwork and adventure.  \n\n---\n\n### **Notes on Errors**  \nThe tool results include a movie titled *New Toy Story* (2026) with a low rating and minimal details. Since it doesn\u2019t align with the official franchise, I\u2019ve excluded it from the recommendations.  \n\nLet me know if you\u2019d like more details or additional suggestions! \ud83c\udfa5"
+      }
+    ],
+    "conversation_id": "1b446d92-dc71-4c07-a6c4-a8307c6c8fcd",
+    "current_query": "Titanic",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 16:03:53 - movieverse - INFO - Running agent graph
+2026-06-26 16:03:53 - movieverse - INFO - Analyzing intent for query: Titanic... | Data: {
+  "conversation_id": "1b446d92-dc71-4c07-a6c4-a8307c6c8fcd"
+}
+2026-06-26 16:03:53 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Titanic"
+  }
+}
+2026-06-26 16:03:53 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 16:03:53 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 16:03:53 - movieverse - INFO - Generating response for conversation: 1b446d92-dc71-4c07-a6c4-a8307c6c8fcd
+2026-06-26 16:03:53 - movieverse - DEBUG - Sending 4 history messages to Cohere
+2026-06-26 16:04:17 - movieverse - INFO - Generated response of length: 4568
+2026-06-26 16:04:17 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 16:04:17 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 16:04:17 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 16:04:17 - movieverse - INFO - Found 10 movies from search_movie
+2026-06-26 16:04:17 - movieverse - INFO - Extracted 10 unique movies after deduplication
+2026-06-26 16:04:17 - movieverse - INFO - Extracted 10 movies from tool results | Data: {
+  "movie_titles": [
+    "Titanic",
+    "Titanic",
+    "Titanic",
+    "Titanic II",
+    "Titanic"
+  ]
+}
+2026-06-26 16:04:17 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 4568,
+  "movies_count": 10
+}
+2026-06-26 16:04:52 - movieverse - INFO - Processing message: titanic... | Data: {
+  "conversation_id": "05290edf-3a47-4b2d-a6aa-4649060a7696"
+}
+2026-06-26 16:04:52 - movieverse - DEBUG - Initial state created | Data: {
+  "state": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "fast and furious 6"
+      },
+      {
+        "role": "assistant",
+        "content": "**Fast & Furious 6 (2013)**  \n*Rating: 6.8/10 (based on 11,207 votes)*  \n\nIf you\u2019re a fan of high-octane action, jaw-dropping stunts, and the unbreakable bond of family, *Fast & Furious 6* is a must-watch! Released in **2013**, this installment in the *Fast & Furious* franchise brings back fan-favorite characters Dominic Toretto (Vin Diesel) and Brian O\u2019Conner (Paul Walker) as they reunite their crew for another adrenaline-fueled mission.  \n\n### **Plot Overview**  \nAfter the events of *Fast Five*, Hobbs (Dwayne Johnson) recruits Dom and Brian to take down a ruthless team of mercenaries led by the formidable Owen Shaw (Luke Evans). The stakes are personal when Dom discovers that his presumed-dead girlfriend, Letty (Michelle Rodriguez), is alive and working with the enemy. The crew must navigate high-speed chases, epic heists, and emotional reunions to save the day\u2014and their family.  \n\n### **Why You\u2019ll Love It**  \n- **Action Sequences**: The film is packed with unforgettable moments, including a jaw-dropping tank chase and a thrilling airplane takedown.  \n- **Emotional Depth**: The return of Letty adds a layer of heart to the high-energy plot.  \n- **Ensemble Cast**: The chemistry between Vin Diesel, Paul Walker, and the rest of the crew is as strong as ever.  \n\n### **Recommendations**  \nIf you enjoyed *Fast & Furious 6*, here are some similar movies you might like:  \n1. **Fast Five (2011)**  \n   - The predecessor to *Fast & Furious 6*, this film sets the stage for the crew\u2019s reunion and features one of the franchise\u2019s most iconic heists.  \n2. **Mad Max: Fury Road (2015)**  \n   - A visually stunning, non-stop action film with intense vehicular combat and a strong narrative.  \n3. **Mission: Impossible \u2013 Fallout (2018)**  \n   - Another high-stakes, action-packed film with incredible stunts and a tight-knit team dynamic.  \n\n### **Fun Fact**  \nThe film\u2019s iconic tank scene was inspired by real-life military tactics and required extensive planning and practical effects to bring to life.  \n\nLet me know if you\u2019d like more details or recommendations\u2014I\u2019m here to fuel your movie marathon! \ud83c\udfac"
+      },
+      {
+        "role": "user",
+        "content": "fast and furious franchise movies"
+      },
+      {
+        "role": "assistant",
+        "content": "I encountered an error: Client error '400 Bad Request' for url 'https://api.cohere.ai/v1/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      },
+      {
+        "role": "user",
+        "content": "fast and furious franchise movies"
+      },
+      {
+        "role": "assistant",
+        "content": "I encountered an error: Client error '400 Bad Request' for url 'https://api.cohere.ai/v1/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+      }
+    ],
+    "conversation_id": "05290edf-3a47-4b2d-a6aa-4649060a7696",
+    "current_query": "titanic",
+    "tools_to_use": [],
+    "tool_results": {},
+    "final_response": null,
+    "error": null,
+    "extracted_params": {}
+  }
+}
+2026-06-26 16:04:52 - movieverse - INFO - Running agent graph
+2026-06-26 16:04:52 - movieverse - INFO - Analyzing intent for query: titanic... | Data: {
+  "conversation_id": "05290edf-3a47-4b2d-a6aa-4649060a7696"
+}
+2026-06-26 16:04:52 - movieverse - INFO - Selected tools: ['search_movie'] | Data: {
+  "extracted_params": {
+    "movie_title": "Titanic"
+  }
+}
+2026-06-26 16:04:52 - movieverse - DEBUG - Should use tools? tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 16:04:52 - movieverse - INFO - Executing 1 tools | Data: {
+  "tools": [
+    "search_movie"
+  ]
+}
+2026-06-26 16:04:53 - movieverse - INFO - Generating response for conversation: 05290edf-3a47-4b2d-a6aa-4649060a7696
+2026-06-26 16:04:53 - movieverse - DEBUG - Sending 6 history messages to Cohere
+2026-06-26 16:05:08 - movieverse - INFO - Generated response of length: 4161
+2026-06-26 16:05:08 - movieverse - INFO - Agent graph execution completed | Data: {
+  "tools_used": [
+    "search_movie"
+  ],
+  "has_response": true,
+  "has_tool_results": true
+}
+2026-06-26 16:05:08 - movieverse - DEBUG - Extracting movies from tool results | Data: {
+  "tool_results_keys": [
+    "search_movie"
+  ]
+}
+2026-06-26 16:05:08 - movieverse - DEBUG - Processing tool result: search_movie | Data: {
+  "result_keys": [
+    "tool_name",
+    "results",
+    "total_results",
+    "query"
+  ]
+}
+2026-06-26 16:05:08 - movieverse - INFO - Found 10 movies from search_movie
+2026-06-26 16:05:08 - movieverse - INFO - Extracted 10 unique movies after deduplication
+2026-06-26 16:05:08 - movieverse - INFO - Extracted 10 movies from tool results | Data: {
+  "movie_titles": [
+    "Titanic",
+    "Titanic",
+    "Titanic",
+    "Titanic II",
+    "Titanic"
+  ]
+}
+2026-06-26 16:05:08 - movieverse - DEBUG - Final response data | Data: {
+  "response_length": 4161,
+  "movies_count": 10
+}
